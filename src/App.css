@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+@font-face {
+  font-family: Avenir-Light;
+  src: url("/src/font - Copy/AvenirLTStd-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("/src/font - Copy/AvenirLTStd-Heavy.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgg{
+  background-image: url(/src/images/bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.g{
+  background-image: url(/src/images/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.al{
+  font-family: 'Avenir-Light';
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ah {
+  font-family: 'Avenir-Heavy';
 }
