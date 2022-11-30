@@ -1,35 +1,19 @@
-import React from 'react'
+import React from 'react';
 import grlogo from '../images/grlogo.png';
 
 function HomeC() {
-    var i = 0;
-    var bgcolor = ["black"];
-
-    function divchange()
-    {
-        document.getElementById("dd").style.backgroundColor=bgcolor[i];
-        i++;
-        if(i>bgcolor.length())
-        {
-            i=0;
-        }
-        window.setTimeout(divchange(),20);
-
-    }
-    setInterval(divchange,2490);
   
-   return (
-        <div class=" w-full h-full flex justify-center items-center" id="dd">
-            <div class=" w-full h-full  z-0">
-                <div className='scale-50 lg:scale-95 flex z-50 items-center  justify-center lg:justify-end '>
-                    <img src={grlogo} className="scale-75 fixed pt-40  " alt="" />
-                </div>
-                <div class=" flex justify-center items-center ">
-                <img src={require('../images/GRUS.gif')} className="object-contain max-w-screen max-h-screen" alt="Grustl-gif" />
-                </div>
-            </div>
+  return (
+    <div className='front w-fill  h-fill sm:h-screen ' > 
+      <div className='z-50 shadow-2xl bg-blend-overlay  flex place-content-end items-center  w-full h-20 sm:h-[100px] fixed backdrop-blur-3xl'>
+            <img src={grlogo} id="name" className=" sm:w-auto scale-80 w-[30%] sm:scale-75    " alt="" />
+      </div> 
+      <div class=" w-fill h-screen flex justify-center items-center  " > 
+        <div class="absolute inset-0 flex justify-center items-center  ">
+            <img src={require('../images/GRUS.gif')} className="object-contain max-h-screen" alt="Grustl-gif" />
         </div>
+      </div>
+    </div> 
   );
-};
-
-export default HomeC
+}
+export default HomeC;

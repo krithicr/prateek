@@ -1,31 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import grlogo from '../images/grlogo.png';
-
-// const Navbar = () => {
-//   return (
-//     <div className='nav flex justify-center items-center h-16 bg-white text-gray-600 relative shadow-sm ' role='navigation'>
-//         <div>
-//             <Link to="/" className='pl-8'>
-//             <img src={grlogo} className="scale-75 z-40 " alt="" />
-//             </Link>
-//         </div>
-//         <div className='px-4 cursor-pointer md:hidden'>
-//         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-//         </div>
-//         <div className='pr-8 md:block hidden '>
-//             <Link className='p-4' to="/">Home.</Link>
-//             <Link className='p-4' to="/Services">Services.</Link>
-//             <Link className='p-4' to="/Mancave">Mancave.</Link>
-//             <Link className='p-4' to="/Career">Career.</Link>
-//             <Link className='p-4' to="/Connect">Connect.</Link>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import {motion} from 'framer-motion';
@@ -144,7 +116,7 @@ const Navbar = () =>{
                 onClick={showSidebar}
                 >
                     
-                    <a className='text-4xl lg:text-7xl '><AiIcons.AiOutlineRight  /></a> 
+                    <a className='text-4xl  '><AiIcons.AiOutlineRight  /></a> 
                 </motion.btn>
             </motion.div>
         </IconContext.Provider>

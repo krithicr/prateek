@@ -8,10 +8,30 @@
   font-family: Avenir-Heavy;
   src: url("/src/font - Copy/AvenirLTStd-Heavy.otf") format("opentype");
 }
-
 .bgg{
   background-image: url(/src/images/bg.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.front{
+  background-image: url(/src/images/frontbg.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.gunabg{
+  background-image: url(/src/images/gunabg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.gbg{
+  background-image: url(/src/images/gbg.png);
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -20,11 +40,123 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 20%;
+  background-size: 50%;
+  
+}
+
+.fbg{
+  background-image: url(/src/images/founderbg.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 .al{
   font-family: 'Avenir-Light';
 }
+
 .ah {
+  
   font-family: 'Avenir-Heavy';
 }
+
+
+
+.fade {
+
+  padding-top: 70px;
+  background-color: black;
+  transition: opacity 0.6s ease-in-out;
+
+}
+
+.fadee {
+
+  background-color: white;
+  transition: opacity 0.7s ease-in-out;
+}
+
+
+
+.fadeOut { opacity: 0; }
+.fadeIn { opacity: 1; }
+
+
+
+ [data-aos^=hide][data-aos^=hide] {
+  opacity: 1;
+  transition-property: opacity, transform
+}
+
+[data-aos^=hide][data-aos^=hide].aos-animate {
+  opacity: 0;
+  transform: translate(0)
+}
+
+
+[data-aos="fade-out"] {
+  opacity: 1;
+  transition-property: opacity;
+}
+[data-aos="fade-out"].aos-animate {
+    opacity: 0;
+  }
+
+
+  
+      
+      .pic-ctn {
+        width: 100vw;
+        
+      }
+      
+      @keyframes display {
+        0% {
+          transform: translateX(200px);
+          opacity: 0;
+        }
+        10% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        20% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        30% {
+          transform: translateX(-200px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(-200px);
+          opacity: 0;
+        }
+      }
+      
+      .pic-ctn {
+        position: relative;
+       scale: 45%;
+       
+       
+      }
+      
+      .pic-ctn > img {
+        position: absolute;
+        top: 0;
+        left: calc(50% - 100px);
+        opacity: 0;
+        animation: display 10s infinite;
+      }
+      
+      img:nth-child(2) {
+        animation-delay: 2s;
+      }
+      img:nth-child(3) {
+        animation-delay: 4s;
+      }
+      img:nth-child(4) {
+        animation-delay: 6s;
+      }
+      img:nth-child(5) {
+        animation-delay: 8s;
+      }

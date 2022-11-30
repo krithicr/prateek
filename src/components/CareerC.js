@@ -5,162 +5,188 @@ import { useEffect } from 'react';
 
 function CareerC() {
   useEffect(()=>{
-    Aos.init({duration:2000,
-      once: false,
+    Aos.init({duration:700,
+      once: false, 
       mirror: true,});
   }, []);
+
   return (
-    <div className='bg-white max-w-screen pb-40 '>
-      <div className='flex items-center justify-start pl-20 pt-20 pb-10 z-20'data-aos="fade-up" data-aos-easing="ease-in-out">
-        <span className='ah text-7xl text-black font-bold text-left w-[500px] leading-[65px]'>
+    <div className='bg-white max-w-screen pb-12  flex items-center justify-center flex-col'>
+     
+      <div className='flex pl-[20px] pt-60 pb-20 z-20 top-0'data-aos="fade-up" data-aos-easing="ease-in-out">
+        <span className='al text-7xl text-black font-light leading-[65px] tracking-tight text-center'>
         Join the life at
-        grustl.
+        <br></br>
+        <span className='ah font-extrabold '>grustl.</span>
         </span>
       </div>
-      <div className='flex items-center justify-center pt-0 ' >
-        <div className='pr-8 flex flex-row transform transition duration-500 hover:scale-105'>
-          <div class="w-[275px] h-[289px] bg-[#1E1E1E] " data-aos="zoom-in" data-aos-easing="ease-in-out">
+
+      
+      
+      <div className='flex gap-5 flex-col xl:flex-row items-center justify-center pt-0 w-full   sm:w-[95%]  ' >
+        <div className=' flex flex-col xl:flex-row  items-center  justify-center transform transition duration-500 hover:scale-103 w-full sm:w-[50%]'>
+          <div class="w-[90%] sm:w-[40%] h-[289px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-white text-right ">
-              <p class="ah  text-4xl pt-10 text-right tracking-wider pr-5">
-                Content
+              <p class="ah  text-4xl pt-10 text-right tracking-normal pr-5">
+                Content 
+              
               <br></br>
               <p className='al'>
               Writer
               </p>
+               
               </p>
-              <p class="text-base font-medium text-[#ACACAC]  pt-1 pr-5 tracking-wide leading-4  ">
-                make
+              <p class="al text-base font-light text-[#acacac] al pt-1 pr-5 tracking-wide leading-4  ">
+                make 
                 <br></br>
-              revolutionary content.
+              
+              revolutionary content. 
               </p>
+              
             </div>
           </div>
         {/* </div> */}
-        <div className='bg-white w-[15px]'>
+        <div className='bg-white sm:visible invisible w-[1px] sm:w-[15px]'>
+
         </div>
+
+        
         {/* <div className='pr-5 transform transition duration-500 hover:scale-105'> */}
-          <div class="w-[572.33px] h-[289px] bg-[#EAEAEA]" data-aos="zoom-out" data-aos-easing="ease-in-out">
-            <div class="text-black text-right">
-              <p class="font-normal text-[15px] pt-10 w-[529px] h-[183px] pr-4  pl-4 text-justify ">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque.
-              </p>
-              <div className='pt-10 pr-10'>
-                <button class="bg-[#EAEAEA] hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-xl shadow">
+          <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[60%] h-[289px] bg-[#EAEAEA]" data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div class="text-black text-right flex items-center justify-center flex-col">
+              <p class="al font-normal text-[15px] pt-10 w-[90%] h-[183px] pr-4  al pl-4 text-justify ">
+              Content Writer to join our editorial team, ultimately to deliver quality writing pieces that appeal to our audiences, attract customers and boost brand awareness and enrich websites with new blog posts, guides and marketing copy.</p>
+              <div className='pt-10 pr-10  w-full'>
+                <button class=" ah  tracking-wide text-[12px] bg-[#EAEAEA] hover:bg-[#1E1E1E] text-[#1E1E1E] hover:text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
                 <span>R E A C H &nbsp; U S</span>
+                 
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className='pr-8 flex flex-row transform transition duration-500 hover:scale-105'>
-          <div class="w-[413px] h-[289px] bg-[#EAEAEA]" data-aos="zoom-out" data-aos-easing="ease-in-out">
+
+        <div className='sm:pr-8 flex flex-col xl:flex-row sm:pt-20 xl:pt-0 items-center w-[100%] sm:w-[50%] justify-center transform transition duration-500 hover:scale-103'>
+          <div class="w-[90%] sm:w-[50%] h-[289px] bg-[#EAEAEA]" data-aos="fade-up" data-aos-easing="ease-in-out">
           <div class="text-black text-right ">
-            <p class="ah  text-4xl pt-10 text-right tracking-wider pr-5">
-                  Social Media
+            <p class="ah  text-4xl pt-10 text-right tracking-normal pr-5">
+                  Social Media 
+                
                 <br></br>
                   <p className='al'>
                   Account Manager
                   </p>
               </p>
-              <p class="text-base font-medium text-black  pt-1 pr-5 tracking-wide leading-4  ">
-                make
+              <p class="al text-base font-light text-black  pt-[6px] pr-5 tracking-wide leading-5  ">
+              Administer 
                 <br></br>
-              revolutionary content.
+              
+                Social Accounts  
               </p>
+              
             </div>
           </div>
         {/* </div> */}
         <div className='bg-white w-[15px]'>
+
         </div>
         {/* <div className='pr-5 transform transition duration-500 hover:scale-110'> */}
-          <div class="w-[400px] h-[289px] bg-[#1E1E1E] " data-aos="zoom-out" data-aos-easing="ease-in-out">
-            <div class="text-white text-right ">
-              <p class="font-normal text-[15px] pt-10 w-[341px] h-[183px] pr-7  pl-7 text-justify ">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
-              Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              </p>
-              <div className='pt-10 pr-10'>
-                <button class="bg-black hover:bg-[#363636] text-white font-semibold py-2 px-4 border border-gray-400 rounded-xl shadow">
-                  R E A C H &nbsp; U S
+          <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[50%] h-[289px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div class="text-white text-right flex items-center justify-center flex-col ">
+              <p class="al font-normal text-[15px] pt-10 w-[85%] h-[183px]  text-justify ">
+              Talented Social media manager to administer our social media accounts. You will be responsible for creating original text and video content, managing posts and responding to followers.</p>
+              <div className='pt-10 pr-10  w-full'>
+                <button class=" ah  tracking-wide text-[12px] hover:bg-[#EAEAEA] bg-[#1E1E1E] hover:text-[#1E1E1E] text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
+                <span>R E A C H &nbsp; U S</span>
+                 
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='flex flex-row items-center justify-center pt-5'>
-        <div className='pr-8 flex flex-row transform transition duration-500 hover:scale-105'>
-          <div class="w-[275px] h-[310px] bg-[#EAEAEA] " data-aos="zoom-in" data-aos-easing="ease-in-out">
-          <div class="text-black text-right ">
-          <p class="ah   text-4xl pt-10 text-right tracking-wider pr-5">
-                Graphic
-              <br></br>
-              <p className='al'>
-              Designer
-              </p>
-              </p>
-              <p class="text-base font-medium text-black  pt-1 pr-5 tracking-wide leading-4  ">
-                make
+
+      <div className='flex gap-5 flex-col xl:flex-row items-center justify-center pt-5  w-[95%] '>
+        <div className=' flex flex-col xl:flex-row transform transition duration-500 hover:scale-103 w-[100%] items-center justify-center sm:w-[40%]'>
+          <div class="w-[90%] sm:w-[50%] h-[310px] bg-[#EAEAEA] " data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div class="text-black text-right ">
+              <p class="ah   text-4xl pt-10 text-right tracking-normal pr-5">
+                Motion 
                 <br></br>
-              revolutionary content.
-              </p>
-            </div>
+                <p className='al'>
+                Graphic Designer
+                </p>
+                
+                </p>
+                <p class="al text-base font-light text-black  pt-1 pr-5 tracking-wide leading-5  ">
+                Design Mind Boggling 
+                  <br></br>
+                
+                  Motion Graphics 
+                </p>
+                
+              </div>
           </div>
         {/* </div> */}
         <div className='bg-white w-[15px]'>
+
         </div>
         {/* <div className='pr-7 transform transition duration-500 hover:scale-110'> */}
-          <div class="w-[275px] h-[310px] bg-[#1E1E1E] " data-aos="zoom-out" data-aos-easing="ease-in-out">
-          <div class="text-white text-right">
-              <p class="font-normal text-[15px] pt-10 w-[226px] h-[183px] pr-7  pl-7 text-justify ">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.
+          <div class="sm:flex hidden w-[1px] sm:visible collapse sm:w-[50%] h-[310px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
+          <div class="text-white text-right flex items-center justify-center flex-col">
+              <p class="al font-normal text-[15px] pt-10 w-[90%] h-[183px] pr-7  pl-7 text-justify ">
+              Motion Graphics Designer who will work closely with the marketing team, video producers and other key stakeholders to brainstorm and create high quality video content that reflect branding priorities.
               </p>
-              <div className='pt-[55px] pr-10'>
-                <button class="bg-black hover:bg-[#363636]  text-white font-semibold py-2 px-4 border border-gray-400 rounded-xl shadow">
+              <div className='pt-10 pr-10  w-full'>
+                <button class=" ah  tracking-wide text-[12px] hover:bg-[#EAEAEA] bg-[#1E1E1E] hover:text-[#1E1E1E] text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
                 <span>R E A C H &nbsp; U S</span>
+                 
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className='pr-8 flex flex-row transform transition duration-500 hover:scale-105'>
-          <div class="w-[567px] h-[310px] bg-[#1E1E1E] " data-aos="zoom-in" data-aos-easing="ease-in-out">
+
+        <div className='sm:pr-8 flex flex-col xl:flex-row transform transition duration-500 hover:scale-103 w-[100%] sm:w-[60%] items-center justify-center'>
+          <div class="w-[90%] sm:w-[35%] h-[310px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-white text-right ">
-            <p class="ah  text-4xl pt-10 text-right tracking-wider pr-5">
-                Web
-              <br></br>
-              <p className='al'>
-              Developer
+            <p class="ah  text-4xl pt-10 text-right tracking-normal pr-5">
+            Cinematographer 
+              
+              
+               
               </p>
-              </p>
-              <p class="text-base font-medium text-[#ACACAC] pt-1 pr-5 tracking-wide leading-4  ">
-                make
+              <p class="al text-base font-light text-[#acacac] pt-1 pr-5 tracking-wide leading-5  ">
+              Shoot  
                 <br></br>
-              revolutionary website.
+              
+                Epic Films 
               </p>
+              
             </div>
           </div>
         {/* </div> */}
         <div className='bg-white w-[15px]'>
+
         </div>
         {/* <div className='pr-7 transform transition duration-500 hover:scale-110 '> */}
-          <div class="w-[544px] h-[310px] bg-[#EAEAEA] " data-aos="zoom-out" data-aos-easing="ease-in-out">
-            <div class="text-black text-right">
-              <p class="font-normal text-[15px] pt-10 w-[529px] h-[183px] pr-4  pl-4 text-justify ">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque.
-              </p>
-              <div className='pt-[55px] pr-10'>
-                <button class="bg-[#EAEAEA] hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-xl shadow">
-                  R E A C H &nbsp; U S
+          <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[65%] h-[310px] bg-[#EAEAEA] " data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div class="text-black text-right flex items-center justify-center flex-col">
+              <p class="al font-normal text-[15px] pt-10 w-[90%] h-[183px] pr-4  pl-4 text-justify ">
+              Skilled and innovative cinematographer to join our team. The cinematographer’s responsibilities include reading scripts and liaising with the director. You should suggest suitable lighting, angles, filters, and techniques to the director, and also work with the processing lab and post-production team. </p>
+              <div className='pt-10 pr-10  w-full'>
+                <button class=" ah  tracking-wide text-[12px] bg-[#EAEAEA] hover:bg-[#1E1E1E] text-[#1E1E1E] hover:text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
+                <span>R E A C H &nbsp; U S</span>
+                 
                 </button>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
 }
+
 export default CareerC;
