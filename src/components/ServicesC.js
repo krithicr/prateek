@@ -3,6 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef} from "react";
 import './Services.css';
+import Aos from 'aos';
+import"aos/dist/aos.css";
 
 function ServicesC() {
         gsap.registerPlugin(ScrollTrigger);
@@ -328,7 +330,11 @@ function ServicesC() {
       }, []);
 
       
-        
+      useEffect(()=>{
+        Aos.init({duration:700,
+          once: false, 
+          mirror: true,});
+      }, []);
 
         
 
@@ -371,22 +377,22 @@ function ServicesC() {
             
             <div className="fadepara flex items-center justify-center text-2xl  h-auto w-full sm:w-[55%] text-justify pt-40 sm:pt-[250px] ">
                <ul className='flex flex-col items-center justify-center'>
-                 <li className="sm:w-[80%] w-[90%] pt-10"> 
+                 <li className="sm:w-[80%] w-[90%] pt-10" data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah pl-1 font-extrabol text-center sm:invisible '>Creative Branding</p> 
-                   <div className='w-full'>
-                      <p className='box-1 sm:text-left text-center ah font-extrabol pt-4'>Not just your Ordinary Branding Agency</p>
-                      <p className="first-paragraph pt-5 al text-justify">
+                   <div className='w-full first-paragraph'>
+                      <p className='box-1 sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Not just your Ordinary Branding Agency</p>
+                      <p className=" al pt-4 text-justify leading-7 text-[19px]">
                         Your brand is your reputation and those small details and trends tend to make a huge impact on eyes, 
                         hearts and minds of the people around you. Making people Admire those small details and streaks creates 
                         a huge impact on their subconscious minds, which is nothing but magic. And we do that magic for you!
                       </p>
                     </div>
                  </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96">
+                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Influencer Marketing</p> 
-                   <div>
-                    <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4'>Underrated yet Extensive</p>
-                    <p className="second-paragraph pt-5 al text-justify">
+                   <div className='second-paragraph'>
+                    <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
+                    <p className=" pt-5 al text-justify leading-7 text-[19px]">
                       From using the referral code for an extra 20% discount to getting us to follow a new skin care routine, 
                       the influencers got us. Not just us you too. These people are backed up by loyal audiences who relate themselves 
                       with them. So why still underestimate the power of the new age word of mouth marketing. Let Grustl be the bridge 
@@ -395,11 +401,11 @@ function ServicesC() {
                     </p>
                     </div>
                  </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96">
+                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah  pl-1 font-extrabol text-center sm:invisible '>Brand Strategy</p> 
-                    <div>
-                      <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4'> It’s high time to define your brand</p>
-                      <p className="third-paragraph pt-5 al text-justify">
+                    <div className='third-paragraph'>
+                      <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'> It’s high time to define your brand</p>
+                      <p className=" pt-5 al text-justify leading-7 text-[19px]">
                         Questions like what is the meaning of the brand, why does it exist, what is the market volume, 
                         how to win over competitors and hence forth must be addressed. Before vaguely coming up with solutions 
                         we at Grustl do intense case studies and immense research to full-fill the problem of how the brand wants 
@@ -407,11 +413,11 @@ function ServicesC() {
                       </p>
                     </div>
                 </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb">
+                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Consulting</p> 
-                    <div >
-                      <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4'>Borrow the Grustl Brains</p>
-                      <p className="fourth-paragraph al pt-5 text-justify pb-40 sm:pb-96">
+                    <div className='fourth-paragraph'>
+                      <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>
+                      <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]">
                         More than time burnt on designing and planning content, we spend majority of our time on 
                         analysing the needs of brands. By just pointing out the North Star brand which is nothing 
                         but the brands those are similar to the brand that we want to create or become, we at grustl 

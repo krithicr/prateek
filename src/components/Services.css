@@ -10,7 +10,7 @@
 .fadepara {
     width: 100%;
     max-width: 840px;
-    margin: 20px;
+    margin: 10px;
     background-image: linear-gradient(
         transparent 30%,
         currentcolor 40%,
@@ -20,10 +20,4 @@
     background-clip: text;
     -webkit-background-clip: text;
     background-attachment: fixed;
-}
-
-.fadepara p{
-    margin: 20px 0;
-    font-size: 20px;
-    color: transparent;
 }

@@ -1,9 +1,12 @@
+/* eslint-disable no-script-url */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import {motion} from 'framer-motion';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
+
 
 
 
@@ -99,7 +102,7 @@ const Navbar = () =>{
                 >
                     <motion.div className="inner-nav" onClick={showSidebar}>
                         <motion.button 
-                            className="  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                            className="ah  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
                             
                         >
                             <Link className='' to="/Connect">Connect.</Link>  
@@ -125,3 +128,4 @@ const Navbar = () =>{
 }
 
 export default Navbar
+

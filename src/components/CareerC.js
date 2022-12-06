@@ -11,7 +11,7 @@ function CareerC() {
   }, []);
 
   return (
-    <div className='bg-white max-w-screen pb-12  flex items-center justify-center flex-col'>
+    <div className='bg-white max-w-screen pb-12  flex items-center justify-center flex-col '>
      
       <div className='flex pl-[20px] pt-60 pb-20 z-20 top-0'data-aos="fade-up" data-aos-easing="ease-in-out">
         <span className='al text-7xl text-black font-light leading-[65px] tracking-tight text-center'>

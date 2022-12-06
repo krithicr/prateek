@@ -10,11 +10,13 @@ import ConnectC from './components/ConnectC';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+  
   return (
     <>
-      <div className="fixed z-50 sm:flex hidden">
-        <Navbar />
+      <div className="fixed z-50 sm:flex hidden ">
+        {/* <Navbar /> */}
       </div>
+      
       <Routes>
           <Route path='/' exact element={<Home />}  />
           <Route path='/Services' element={<ServicesC />} />
