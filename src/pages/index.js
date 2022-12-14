@@ -5,11 +5,7 @@ import HomeC from '../components/HomeC'
 import MancaveC from '../components/MancaveC'
 import ServicesC from '../components/ServicesC'
 import FoundersC from '../components/Founders'
-import Zguna from '../components/Zguna'
-import Zkiran from '../components/Zkiran'
-import Zrishi from '../components/Zrishi'
-import Zthiksha from '../components/Zthiksha'
-import Zpratap from '../components/Zpratap'
+import Footer from '../components/FooterC'
 import Home2 from '../components/Home2'
 
 
@@ -20,17 +16,10 @@ const Home = () => {
         <Home2 />
         <ServicesC />
         <MancaveC />
-
         <FoundersC />
         <CareerC />
         <ConnectC />
-        <Zguna />
-        <Zrishi />
-        <Zkiran/>
-        <Zthiksha/>
-        <Zpratap/>
-        
-
+        <Footer />
     </div>
   )
 }

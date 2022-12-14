@@ -29,6 +29,14 @@
   background-position: center;
 
 }
+
+.navbg{
+  background-image: url(/src/images/menubar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
 .gbg{
   background-image: url(/src/images/gbg.png);
   background-size: 40%;
@@ -51,6 +59,64 @@
   background-position: center;
 
 }
+
+.mgbg{
+  background-image: url(/src/images/box\ g.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.mkbg{
+  background-image: url(/src/images/box\ k.png);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+
+.mrbg{
+  background-image: url(/src/images/box\ r.png);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+
+.mtbg{
+  background-image: url(/src/images/box\ t.png);
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+
+.mkitbg{
+  background-image: url(/src/images/box\ kit.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.mkprabg{
+  background-image: url(/src/images/box\ p.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.mcmobbg{
+  background-image: url(/src/images/mancavemobilebg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 60;
+
+
+}
+
 .al{
   font-family: 'Avenir-Light';
 }
@@ -141,6 +207,41 @@
   }
 
   body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    
     background-color: transparent;
+}
+
+formInput{
+  display: flex;
+}
+/* 
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+} */
+
+
+
+.sp{
+  font-size: 12px;
+  padding: 2px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"]{
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+  display: block;
+}
+
+
+
+.card{
+  /* margin-left: -9rem;
+  box-shadow: 4px 4px; */
 }

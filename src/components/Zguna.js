@@ -3,28 +3,27 @@ import React from 'react';
 
 import gunavid from '../images/1.gif'
 
- 
+document.addEventListener('contextmenu', event => event.preventDefault());
 function Guna() {
     return(
 
-        <div className='flex flex-col sm:flex-row w-fill   h-auto sm:h-screen bg-black gunabg  '>
+        <div className='select-none flex flex-col sm:flex-row w-fill   h-auto sm:h-screen bg-black gunabg  '>
             <div className='basis-1/2 items-center justify-center flex   mix-blend-lighten'>
-                <img src={gunavid} className="  mix-blend-difference z-50 scale-50 sm:scale-100" alt="guna"></img>
+                <img src={gunavid} galleryimg="no" className="  mix-blend-difference z-50 scale-50 sm:scale-100" alt="guna"></img>
 
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
-                    <div className='w-96 h-12 text-4xl bg-[#428DC2] text-[#D4D4D4] ah  flex items-center justify-center rounded-sm'>
-                    Full Stack Developer
+                    <div className='w-[420px] h-12 text-3xl bg-[#912D38] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
+                        <p className='al'>FULL STACK </p><p className='ah pl-2'>DEVELOPER</p>
                     </div>
-                    <div className='ah pt-20 text-white text-4xl underline-offset-8 underline'>
-                    Guna <br></br>
+                    <div className='ah pt-10 text-white text-4xl '>
+                        Guna <br></br>
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
-                    <p className='text-[#BDB7B7] text-xl pt-10 text-justify w-[95%] sm:w-[70%] '>
-                    Pure Tech Junkie who steps into the office in the morning with a snack in his left hand and a  log book to debug the previous days bugs in his right hand. He Loves his coffee soo much that he can chug 11 cups of coffee a day and still feel the caffeine rush is insufficient. </p>
+                        <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
+                        Pure Tech Junkie who steps into the office in the morning with a snack in his left hand and a  log book to debug the previous days bugs in his right hand. He Loves his coffee soo much that he can chug 11 cups of coffee a day and still feel the caffeine rush is insufficient. </p>
                     </div>
-
                 </div>
             </div>
 

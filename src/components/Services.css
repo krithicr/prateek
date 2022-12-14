@@ -7,17 +7,23 @@
     display: flex;
 }
 
-.fadepara {
-    width: 100%;
-    max-width: 840px;
-    margin: 10px;
-    background-image: linear-gradient(
-        transparent 30%,
-        currentcolor 40%,
-        currentcolor 60%,
-        transparent 70%
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-attachment: fixed;
-}
+
+ 
+
+  
+        .fadepara 
+        {
+        width: 100%;
+        max-width: 840px;
+        margin: 10px;
+        background-image: linear-gradient(
+            transparent 30%,
+            currentcolor 40%,
+            currentcolor 60%,
+            transparent 70%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-attachment: fixed;
+    }
+

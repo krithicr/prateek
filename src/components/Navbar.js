@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
-
+// import './Navbar.css'
 
 
 
@@ -24,101 +24,115 @@ const Navbar = () =>{
         closed: {opacity: 1, x: 2}
     }
 
+    
+
+
     const [show , setShow] = useState(false);
     
     const showSidebar = () => setShow(!show);
 
     return(
   
-        <IconContext.Provider value={{ color: 'grey' }} className="ah  w-screen">
-            <motion.div className="  w-[800px] h-full absolute z-10 pl-10  flex flex-col items-start  " >
-                <motion.nav
+        <IconContext.Provider value={{ color: 'grey' }} className="ah" >
+            <motion.div className=" flex flex-col items-start"  onClick={showSidebar}>
+                <motion.maindiv className= " absolute h-screen w-screen flex  items-center  justify-start pl-28   bg-gradient-to-r from-white to-gray-300  backdrop-blur-xl" 
+                 animate={show ? "open" : "closed"}
+                 variants = {variants}
+                 transition ={{duration: 0.7}}>
+
+                    <motion.nav className=" flex flex-col gap-8"
                     animate={show ? "open" : "closed"}
                     variants = {variants}
-                    transition ={{duration: 0.4}}
-                    
-                
-                >
-                    <motion.div className="inner-nav" onClick={showSidebar}>       
-                    <motion.button
-                        className=" ah font-bold pb-[2rem] pt-[8rem] xl:text-8xl text-4xl hover:text-[#B5B5B5] text-[#605e5e] tracking-wide line-height: 1rem "
-                        
+                    transition ={{duration: 0.7}}
                     >
-                            <Link className='' to="/">Home.</Link>
-                        </motion.button>                                                 
-                    </motion.div>
-                </motion.nav>
-
-                <motion.nav
-                    animate={show ? "open" : "closed"}
-                    variants = {variants}
-                    transition ={{duration: 0.6}}
-                    
-                >
-                    <motion.div className="inner-nav" onClick={showSidebar}>       
-                        <motion.button
-                            className=" ah pb-[2rem]  xl:text-8xl text-4xl   font-bold  text-[#605e5e]  hover:text-[#B5B5B5] tracking-wide"
+                        <motion.nav
+                            animate={show ? "open" : "closed"}
+                            variants = {variants}
+                            transition ={{duration: 0.6}}
+                            className=""
+                        >
+                            <motion.div className="inner-nav " onClick={showSidebar} >       
+                            <motion.button
+                                className=" ah font-bold  xl:text-8xl text-4xl hover:text-[#B5B5B5] text-[#605e5e] tracking-wide line-height: 1rem "
                                 
-                        >
-                            <Link className='' to="/Services">Services.</Link>
-                        </motion.button>                                                
-                    </motion.div>
-                </motion.nav>
+                            >
+                                    <Link className='gap-2' to="/">Home</Link>
+                                </motion.button>                                                 
+                            </motion.div>
+                        </motion.nav>
 
-                <motion.nav
-                    animate={show ? "open" : "closed"}
-                    variants = {variants}
-                    transition ={{duration: 0.9}}
-                >
-                    <motion.div className="inner-nav" onClick={showSidebar}>       
-                        <motion.button
-                        className=" ah pb-[2rem]  xl:text-8xl text-4xl   font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                        <motion.nav
+                            animate={show ? "open" : "closed"}
+                            variants = {variants}
+                            transition ={{duration: 0.9}}
                             
                         >
-                            <Link className='' to="/Mancave">Mancave.</Link> 
-                        </motion.button>                                                 
-                    </motion.div>
-                </motion.nav>
+                            <motion.div className="inner-nav" onClick={showSidebar}>       
+                                <motion.button
+                                    className=" ah  xl:text-8xl text-4xl   font-bold  text-[#605e5e]  hover:text-[#B5B5B5] tracking-wide"
+                                        
+                                >
+                                    <Link className='' to="/Services">Services</Link>
+                                </motion.button>                                                
+                            </motion.div>
+                        </motion.nav>
 
-                <motion.nav
-                    animate={show ? "open" : "closed"}
-                    variants = {variants}
-                    transition ={{duration: 1.2}}
-                >
-                    <motion.div className="inner-nav" onClick={showSidebar}>       
-                        <motion.button
-                            className=" ah pb-[2rem]  xl:text-8xl text-4xl  font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5] "
-                            
+                        <motion.nav
+                            animate={show ? "open" : "closed"}
+                            variants = {variants}
+                            transition ={{duration: 1.2}}
                         >
-                            <Link className='' to="/Career">Career.</Link> 
-                        </motion.button>                                                
-                    </motion.div>
-                </motion.nav>
+                            <motion.div className="inner-nav" onClick={showSidebar} >       
+                                <motion.button
+                                className=" ah   xl:text-8xl text-4xl   font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                                    
+                                >
+                                    <Link className='' to="/Mancave">Mancave</Link> 
+                                </motion.button>                                                 
+                            </motion.div>
+                        </motion.nav>
 
-                <motion.nav
-                    animate={show ? "open" : "closed"}
-                    variants = {variants}
-                    transition ={{duration: 1.5}}
-                >
-                    <motion.div className="inner-nav" onClick={showSidebar}>
-                        <motion.button 
-                            className="ah  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
-                            
+                        <motion.nav
+                            animate={show ? "open" : "closed"}
+                            variants = {variants}
+                            transition ={{duration: 1.5}}
                         >
-                            <Link className='' to="/Connect">Connect.</Link>  
-                        </motion.button>                             
-                    </motion.div>
-                </motion.nav> 
+                            <motion.div className="inner-nav" onClick={showSidebar}>       
+                                <motion.button
+                                    className=" ah  xl:text-8xl text-4xl  font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5] "
+                                    
+                                >
+                                    <Link className='' to="/Career">Career</Link> 
+                                </motion.button>                                                
+                            </motion.div>
+                        </motion.nav>
+
+                        <motion.nav
+                            animate={show ? "open" : "closed"}
+                            variants = {variants}
+                            transition ={{duration: 1.8}}
+                        >
+                            <motion.div className="inner-nav" onClick={showSidebar}>
+                                <motion.button 
+                                    className="ah  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                                    
+                                >
+                                    <Link className='' to="/Connect">Connect</Link>  
+                                </motion.button>                             
+                            </motion.div>
+                        </motion.nav>
+                    </motion.nav>
+                </motion.maindiv>
+                
                
                 <motion.btn 
-                className="toggle absolute flex items-center justify-center h-screen" 
+                className="toggle absolute flex items-center justify-center h-screen pl-10" 
                 animate={show ? "open" : "closed"}
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 variants = {iconvar}
                 onClick={showSidebar}
                 >
-                    
                     <a className='text-4xl  '><AiIcons.AiOutlineRight  /></a> 
                 </motion.btn>
             </motion.div>
@@ -128,4 +142,3 @@ const Navbar = () =>{
 }
 
 export default Navbar
-

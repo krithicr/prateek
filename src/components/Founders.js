@@ -1,6 +1,5 @@
-import M2 from '../images/M2.png'
-import M3 from '../images/M3.png'
-import M5 from '../images/M5.png'
+
+import M5 from '../images/M5.jpg'
 import found from '../images/found.png'
 import backingus from '../images/backingus.png'
 import Aos from 'aos';
@@ -13,36 +12,31 @@ function FoundersC() {
           once: false, 
           mirror: true,});
       }, []);
+      document.addEventListener('contextmenu', event => event.preventDefault());
     return(
-        <div className='flex items-center justify-center flex-col ' data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div className='flex items-center justify-center flex-col select-none' data-aos="fade-up" data-aos-easing="ease-in-out">
             <div className='bg-white h-auto sm:h-screen flex flex-col sm:flex-row w-full gap-20' >
                 <div className='w-[10%] invisible sm:visible '>
                 </div>
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className='flex flex-col   items-center sm:justify-center justify-end sm:items-start  pt-40   w-full sm:w-[45%] text-justify sm:pt-10'>
-                   <div className='text-6xl al  '>Meet</div>
-                   <div className='text-6xl ah pt-2 '>The Founders</div>
-                   <div className='al w-[75%] text-[1px] sm:text-[16px] sm:pt-8 sm:visible invisible'>
-                   Sanjeev having a 5+ year long entrepreneurial journey backing him up, after his successful exit in his previous startup, with all the expertise he had on scaling up startups and building strategies for the best brands in his previous company eventually stumbled upon Prateek.
-                   < br></br>< br></br>Prateek, who happened to be one of highest demanded designers in the country. Prateek’s brain has no creative limits. 
-                   < br></br>< br></br>Both being extremely ambitious and with all the like minded vision they both had they both joined hands and came up with Grustl considering the fact that there is no creative agency or resources in the country that doesn’t understand that “for a brand to stand out of the box the traditional routes  should be skipped and the agency itself should think out of the box”. Both these pals identified a problem in the commercial space and came up with a fix. Watch out while they are about to revolutionise the startup space.</div>
+                    <div className='text-6xl al  '>Meet</div>
+                    <div className='text-6xl ah pt-2 '>The Founders</div>
+                    <div className='al w-[85%] text-[1px] sm:text-[16px] sm:pt-8 sm:visible invisible'>
+                        Sanjeev having a 5+ year long entrepreneurial journey backing him up. With all the expertise he had on scaling up startups and building strategies for the best brands in his previous company eventually stumbled upon Prateek who happened to be one of highest demanded designers in the country. Prateek’s brain has no creative limits. 
+                        <br></br><br></br>
+                        Both being extremely ambitious and with all the like minded vision they both had they both joined hands and came up with Grustl considering the fact that there is no creative agency or resources in the country that doesn’t understand that “for a business to stand out of the box the traditional routes should be skipped out of the box ideas should be welcomed”. Both these pals identified a problem in the commercial space and came up with a fix.
+                    </div>
                 </div>
-                <div className=' flex  w-[55%]    ' data-aos="fade-up" data-aos-easing="ease-in-out">
-                    <img src={found} className="" alt='founders'/>
+                <div className='sm:w-[55%] flex items-center justify-center  ' data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <img src={found} className="sm:scale-60" alt='founders'/>
                 </div>
             </div>
             <div className=' text-md sm:text-[1px] visible sm:invisible  flex items-center justify-center '>
-                <p className='w-[80%] text-justify pt-8' >    
-                Sanjeev having a 5+ year long entrepreneurial journey backing him up, after his successful exit in his previous startup, 
-                with all the expertise he had on scaling up startups and building strategies for the best brands in his previous company 
-                eventually stumbled upon Prateek 
-                <br></br><br></br>
-                Prateek, who happened to be one of highest demanded designers in the country. Prateek’s brain has no creative limits. 
-                <br></br><br></br>
-                Both being extremely ambitious and with all the like minded vision they both had they both joined hands and came up 
-                with Grustl considering the fact that there is no creative agency or resources in the country that doesn’t understand 
-                that “for a brand to stand out of the box the traditional routes  should be skipped and the agency itself should think 
-                out of the box”. Both these pals identified a problem in the commercial space and came up with a fix. Watch out while they 
-                are about to revolutionise the startup space.</p>
+                <p className='al w-[80%] text-justify pt-8' >    
+                Sanjeev having a 5+ year long entrepreneurial journey backing him up. With all the expertise he had on scaling up startups and building strategies for the best brands in his previous company eventually stumbled upon Prateek who happened to be one of highest demanded designers in the country. Prateek’s brain has no creative limits. 
+                        <br></br><br></br>
+                        Both being extremely ambitious and with all the like minded vision they both had they both joined hands and came up with Grustl considering the fact that there is no creative agency or resources in the country that doesn’t understand that “for a business to stand out of the box the traditional routes should be skipped out of the box ideas should be welcomed”. Both these pals identified a problem in the commercial space and came up with a fix.
+                    </p>
             </div>
             
             <div className=' h-auto pb-60 flex flex-col-reverse sm:flex-row items-center justify-center  ' data-aos="fade-up" data-aos-easing="ease-in-out">
@@ -56,9 +50,9 @@ function FoundersC() {
                 </div>
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className=' flex flex-col items-center justify-center text-center  sm:w-[50%] '>
                     <div className='scale-100 pt-20 sm:pt-0'>
-                        <img src={M5} className=" scale-90 " alt="guna"></img>
+                        <img src={M5} className=" scale-60 " alt="guna"></img>
                     </div>
-                        <p className='pt-10  text-3xl ah'>R. Shanmugasundaram<br></br>
+                        <p className='pt-3  text-3xl ah'>R. Shanmugasundaram<br></br>
                         <span className='al'>Mentor/Investor</span></p>
                 </div>
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className='  sm:w-[50%] h-full flex flex-col items-center justify-center pt-40'>

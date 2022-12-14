@@ -2,7 +2,7 @@ import React from 'react';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef} from "react";
-import './Services.css';
+// import './Services.css';
 import Aos from 'aos';
 import"aos/dist/aos.css";
 
@@ -337,24 +337,24 @@ function ServicesC() {
       }, []);
 
         
-
+      document.addEventListener('contextmenu', event => event.preventDefault());
         return (
 
-          <div className="service flex flex-row h-auto object-contain start w-full items- justify-center" ref={ref}>
+          <div className="select-none service flex flex-row h-auto object-contain start w-full items- justify-center gap-5" ref={ref}>
             
-            <div className=" pt-60  pb-[300px] sm:flex hidden start w-[40%] ">
-            <div className="  flex items-center justify-center  text-5xl ah h-[400px]  sticky top-[250px] "> 
+            <div className=" pt-60  pb-[300px] sm:flex hidden start w-[40%] pl-10 ">
+            <div className="  flex items-center justify-center  text-5xl ah h-[400px]  sticky top-[250px] w-[100%]"> 
                <div className="flex flex-row ">
-                 <div className="w-[4px] h-[400px] bg-gray-300 sm:visible invisible "></div>
-                 <div className="-pl-1">
+                 {/* <div className="w-[4px] h-[400px] bg-gray-300 sm:visible invisible "></div> */}
+                 {/* <div className="-pl-1">
                    <div className="scrollb  w-[6px] h-[100px]  "></div>
                    <div className="scrollb1  w-[6px] h-[100px] bg-white "></div>
                    <div className="scrollb2  w-[6px] h-[100px] bg-white "></div>
                    <div className="scrollb3  w-[6px] h-[100px] bg-white "></div>
-                 </div>
+                 </div> */}
                </div> 
             
-                <ul className=" text-[#B5B5B5] pl-20 w-[950px] text-5xl sm:visible invisible ">
+                <ul className=" text-[#B5B5B5] pl-0 w-[100%] text-5xl sm:visible invisible ">
         
                  <li className="first pt-6 h-[100px]  "> 
                  <h1>Creative Branding</h1> 
@@ -375,22 +375,22 @@ function ServicesC() {
              </div>
             </div>
             
-            <div className="fadepara flex items-center justify-center text-2xl  h-auto w-full sm:w-[55%] text-justify pt-40 sm:pt-[250px] ">
-               <ul className='flex flex-col items-center justify-center'>
-                 <li className="sm:w-[80%] w-[90%] pt-10" data-aos="fade-up" data-aos-easing="ease-in-out"> 
+            <div className=" flex items-center justify-center text-2xl  h-auto w-full sm:w-[50%] text-justify pt-40 sm:pt-[250px]  ">
+               <ul className='  flex flex-col items-center justify-center'>
+                 <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah pl-1 font-extrabol text-center sm:invisible '>Creative Branding</p> 
-                   <div className='w-full first-paragraph'>
+                   <div className='w-full first-paragraph '>
                       <p className='box-1 sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Not just your Ordinary Branding Agency</p>
-                      <p className=" al pt-4 text-justify leading-7 text-[19px]">
+                      <p className=" al pt-4 text-justify leading-7 text-[19px] "data-aos="fade-up">
                         Your brand is your reputation and those small details and trends tend to make a huge impact on eyes, 
                         hearts and minds of the people around you. Making people Admire those small details and streaks creates 
                         a huge impact on their subconscious minds, which is nothing but magic. And we do that magic for you!
                       </p>
                     </div>
                  </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
+                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Influencer Marketing</p> 
-                   <div className='second-paragraph'>
+                   <div className='second-paragraph '>
                     <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
                     <p className=" pt-5 al text-justify leading-7 text-[19px]">
                       From using the referral code for an extra 20% discount to getting us to follow a new skin care routine, 
@@ -401,9 +401,9 @@ function ServicesC() {
                     </p>
                     </div>
                  </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
+                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah  pl-1 font-extrabol text-center sm:invisible '>Brand Strategy</p> 
-                    <div className='third-paragraph'>
+                    <div className='third-paragraph '>
                       <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'> It’s high time to define your brand</p>
                       <p className=" pt-5 al text-justify leading-7 text-[19px]">
                         Questions like what is the meaning of the brand, why does it exist, what is the market volume, 
@@ -413,9 +413,9 @@ function ServicesC() {
                       </p>
                     </div>
                 </li>
-                 <li className="sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb" data-aos="fade-up" data-aos-easing="ease-in-out">
+                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Consulting</p> 
-                    <div className='fourth-paragraph'>
+                    <div className='fourth-paragraph '>
                       <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>
                       <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]">
                         More than time burnt on designing and planning content, we spend majority of our time on 
