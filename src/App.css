@@ -106,6 +106,13 @@
   background-position: left;
 }
 
+.mksribg{
+  background-image: url(/src/images/box\ s.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .mkprabg{
   background-image: url(/src/images/box\ p.png);
   background-size: contain;
@@ -117,11 +124,6 @@
   background-image: url(/src/images/mancavemobilebg.png);
   background-size: cover;
   background-repeat: no-repeat;
-
-  
-  
-
-
 }
 
 .al{

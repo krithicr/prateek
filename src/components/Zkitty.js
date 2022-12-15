@@ -20,7 +20,10 @@ function KittyC() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        Enthusiasm and Charisma all packed into a small package. She keeps tracking engagement and insights and learn new stuff everyday . She carries forward an aesthetic vision which is vey evident in all her works. This kiddo has all that it needs for a perfect social outlook.</p>
+                        I am a powerhouse of enthusiasm and charisma packed into a small package. I am a keen 
+                        learner, always tracking engagement and insights, and striving to learn new things every day. 
+                        I carry forward an aesthetic vision that is evident in all my works. With my charming personality 
+                        and keen eye for detail, I have all the qualities necessary for a perfect social outlook.</p>
                     </div>
                 </div>
             </div>

@@ -22,9 +22,13 @@ function FoundersC() {
                     <div className='text-6xl al  '>Meet</div>
                     <div className='text-6xl ah pt-2 '>The Founders</div>
                     <div className='al w-[85%] text-[1px] sm:text-[16px] sm:pt-8 sm:visible invisible'>
-                        Sanjeev having a 5+ year long entrepreneurial journey backing him up. With all the expertise he had on scaling up startups and building strategies for the best brands in his previous company eventually stumbled upon Prateek who happened to be one of highest demanded designers in the country. Prateek’s brain has no creative limits. 
-                        <br></br><br></br>
-                        Both being extremely ambitious and with all the like minded vision they both had they both joined hands and came up with Grustl considering the fact that there is no creative agency or resources in the country that doesn’t understand that “for a business to stand out of the box the traditional routes should be skipped out of the box ideas should be welcomed”. Both these pals identified a problem in the commercial space and came up with a fix.
+                    Sanjeev has a successful entrepreneurial journey of over 5 years under his belt. 
+                    With expertise in scaling startups and building strategies for top brands, he joined 
+                    forces with Prateek, one of the most in-demand designer. Prateek's brain knows no bounds 
+                    when it comes to creativity. Sharing a common vision and drive for success, the two founded 
+                    Grustl, filling a gap in the market for a creative agency that understands the importance of 
+                    out-of-the-box thinking for businesses. Together, they identified a problem in the commercial 
+                    space and came up with a solution.
                     </div>
                 </div>
                 <div className='sm:w-[55%] flex items-center justify-center  ' data-aos="fade-up" data-aos-easing="ease-in-out">
@@ -49,10 +53,10 @@ function FoundersC() {
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className=' flex flex-col items-center justify-center text-center  sm:w-[50%] '>
-                    <div className='scale-100 pt-20 sm:pt-0'>
-                        <img src={M5} className=" scale-60 " alt="guna"></img>
+                    <div className=' pt-2 sm:pt-0  items-center justify-center flex '>
+                        <img src={M5} className="w-[60%] h-[60%]   " alt="guna"></img>
                     </div>
-                        <p className='pt-3  text-3xl ah'>R. Shanmugasundaram<br></br>
+                        <p className=' text-3xl ah'>R. Shanmugasundaram<br></br>
                         <span className='al'>Mentor/Investor</span></p>
                 </div>
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className='  sm:w-[50%] h-full flex flex-col items-center justify-center pt-40'>

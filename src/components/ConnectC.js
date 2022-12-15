@@ -15,37 +15,32 @@ function ConnectC() {
   document.addEventListener('contextmenu', event => event.preventDefault());
 
   return (
-    <div className=' bg-black h-auto m select-none' data-aos="fade-up" data-aos-easing="ease-in-out">
+    <div id="Connect" className=' bg-black h-auto m select-none' data-aos="fade-up" data-aos-easing="ease-in-out">
       
 
-      <div className='flex flex-col sm:flex-row items-center justify-center h-screen 'data-aos="fade-up" data-aos-easing="ease-in-out">
+      <div className=' flex flex-col sm:flex-row items-center justify-center h-screen 'data-aos="fade-up" data-aos-easing="ease-in-out">
         
-          <div className=' flex flex-col text-center lg:text-left ' data-aos="fade-up" data-aos-easing="ease-in-out">
-            <div className=' '>
-              <p className='text-white text-4xl sm:text-7xl font-bold ah' >
+          <div className=' flex flex-col w-[90%] sm:w-[40%] items-center justify-center sm:items-start sm:justify-center' data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div className='text-white text-5xl sm:text-8xl font-bold ah text-center sm:text-left'>
                 Reach the <br></br>
                 grustl Minds.
-              </p>
             </div>
-            <div className=' flex items-center justify-center' data-aos="fade-up" data-aos-easing="ease-in-out ">
-              <p className='text-white al text-center sm:text-justify text-xl font-medium  sm:w-[607px] sm:h-[171px] sm:pt-20 pt-10 w-[80%]'>
-              Find your convenient time on Grustl’s calendar to schedule your call today and we look forward to speaking to you soon! 
-              By the end of this meeting session you’ll get a clear cut idea on how we at Grustl are different from rest of the agencies.
+            <div className=' w-[100%] pt-10 sm:pt-20  items-center justify-center sm:w-[75%] text-white al text-center sm:text-justify text-xl sm:text-[26px] font-medium leading-8' data-aos="fade-up" data-aos-easing="ease-in-out ">
+              
+              Thank you for considering Grustl for your upcoming call. Please use our calendar to find a convenient time that works for you, 
+              and we look forward to connect with you soon. 
 
-              </p>
+              
             </div>
 
           </div>
 
-          <div className=' lg:pt-0 pt-20 pl-0 xl:pl-20 flex items-center justify-center sm:flex-row flex-col' data-aos="fade-up" data-aos-easing="ease-in-out">
+          <div className='sm:pt-0 pt-10  flex items-center justify-start sm:flex-row flex-col w-[20%]' data-aos="fade-up" data-aos-easing="ease-in-out">
             <Link className='connetform' to='/Connect/connectfrom'>
-              <button className='flex items-center justify-center bg-black w-[275px] h-[75px] text-2xl font-semibold text-white  border border-gray-400 rounded-xl shadow hover:bg-white hover:text-black duration-700'>
+              <button className='flex items-center justify-center bg-black w-[275px] sm:w-[295px] h-[75px] sm:h-[95px] text-2xl font-semibold text-white  border border-gray-400 rounded-xl shadow hover:bg-white hover:text-black duration-700'>
                 C O N N E C T
               </button>              
             </Link> 
-
-            
-
           </div>
       </div>
     </div>

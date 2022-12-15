@@ -14,7 +14,7 @@ function CareerC() {
   document.addEventListener('contextmenu', event => event.preventDefault());
 
   return (
-    <div className='bg-white max-w-screen pb-12  flex items-center justify-center flex-col select-none mx-10'>
+    <div id="Career" className='bg-white max-w-screen pb-12  flex items-center justify-center flex-col select-none mx-10'>
      
       <div className='flex pl-[20px] pt-60 pb-20 z-20 top-0'data-aos="fade-up" data-aos-easing="ease-in-out">
         <span className='al text-7xl text-black font-light leading-[65px] tracking-tight text-center'>
@@ -58,7 +58,9 @@ function CareerC() {
           <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[60%] h-[289px] bg-[#EAEAEA]" data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-black text-right flex items-center justify-center flex-col">
               <p class="al font-normal text-[15px] pt-9 w-[90%] h-[183px] pr-4  al pl-4 text-justify ">
-              Content Writer to join our editorial team, ultimately to deliver quality writing pieces that appeal to our audiences, attract customers and boost brand awareness and enrich websites with new blog posts, guides and marketing copy.</p>
+              Content Writer to join our editorial team, ultimately to deliver quality writing pieces 
+              that appeal to our audiences, attract customers and boost brand awareness and enrich 
+              websites with new blog posts, guides and marketing copy.</p>
               <div className='pt-10 pr-10  w-full'>
                 <Link className='careerform' to="/Career/Careerfrom">
                   <button class=" ah  tracking-wide text-[12px] bg-[#EAEAEA] hover:bg-[#1E1E1E] text-[#1E1E1E] hover:text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
@@ -98,7 +100,9 @@ function CareerC() {
           <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[50%] h-[289px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-white text-right flex items-center justify-center flex-col ">
               <p class="al font-normal text-[15px] pt-9 w-[85%] h-[183px]  text-justify ">
-              Talented Social media manager to administer our social media accounts. You will be responsible for creating original text and video content, managing posts and responding to .</p>
+              Talented Social media manager to administer our social media accounts. You will be 
+              responsible for creating original text and video content, managing posts and responding 
+              to followers.</p>
               <div className='pt-10 pr-10  w-full'>
                 <Link className='careerform' to="/Career/Careerfrom">
                   <button class=" ah  tracking-wide text-[12px] hover:bg-[#EAEAEA] bg-[#1E1E1E] hover:text-[#1E1E1E] text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">
@@ -140,7 +144,9 @@ function CareerC() {
           <div class="sm:flex hidden w-[1px] sm:visible collapse sm:w-[50%] h-[310px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
           <div class="text-white text-right flex items-center justify-center flex-col">
               <p class="al font-normal text-[12px] xl:text-[15px] pt-6 w-[90%] h-[183px] pr-7  pl-7 text-justify ">
-              Motion Graphics Designer who will work closely with the marketing team, video producers and other key stakeholders to brainstorm and create high quality video content that reflect branding priorities.
+              Motion Graphics Designer who will work closely with the marketing team, 
+              video producers and other key stakeholders to brainstorm and create high 
+              quality video content that reflect branding priorities.
               </p>
               <div className='pt-10 pr-10  w-full'>
                 <Link className='careerform' to="/Career/Careerfrom">
@@ -157,11 +163,9 @@ function CareerC() {
           <div class="w-[90%] sm:w-[45%] h-[310px] bg-[#1E1E1E] " data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-white text-right ">
             <p class="al text-[34px] pt-10 text-right tracking-normal pr-5 leading-10">
-                  Director Of 
-                
-                <br></br>
+            
                   <p className='ah '>
-                  Photography
+                  Cinematographer
                   </p>
               </p>
               <p class="al text-base font-light text-[#acacac] pt-[7px] pr-5 tracking-wide leading-5  ">
@@ -181,7 +185,10 @@ function CareerC() {
           <div class="sm:flex hidden w-[1px] sm:visible invisible sm:w-[55%] h-[310px] bg-[#EAEAEA] " data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="text-black text-right flex items-center justify-center flex-col">
               <p class="al font-normal text-[15px] pt-6 w-[90%] h-[183px] pr-4  pl-4 text-justify ">
-              Skilled and innovative cinematographer to join our team. The cinematographer’s responsibilities include reading scripts and liaising with the director. You should suggest suitable lighting, angles, filters, and techniques to the director, and also work with the processing lab and post-production team. </p>
+              Skilled and innovative cinematographer to join our team. The cinematographer’s 
+              responsibilities include reading scripts and liaising with the director. You should 
+              suggest suitable lighting, angles, filters, and techniques to the director, and also 
+              work with the processing lab and post-production team. </p>
               <div className='pt-10 pr-10  w-full'>
                 <Link className='careerform' to="/Career/Careerfrom">
                   <button class=" ah  tracking-wide text-[12px] bg-[#EAEAEA] hover:bg-[#1E1E1E] text-[#1E1E1E] hover:text-[#EAEAEA]  py-2 px-6 border border-gray-400 rounded-[6px] duration-700 ">

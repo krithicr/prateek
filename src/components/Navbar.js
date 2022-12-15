@@ -4,7 +4,6 @@
 import React, { useState } from "react";
 import {motion} from 'framer-motion';
 import * as AiIcons from 'react-icons/ai';
-import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
 // import './Navbar.css'
 
@@ -56,7 +55,7 @@ const Navbar = () =>{
                                 className=" ab font-bold  xl:text-8xl text-4xl hover:text-[#B5B5B5] text-[#605e5e] tracking-wide line-height: 1rem "
                                 
                             >
-                                    <Link className='gap-2' to="/">Home</Link>
+                                    <a href="/" className='gap-2' >Home</a>
                                 </motion.button>                                                 
                             </motion.div>
                         </motion.nav>
@@ -72,7 +71,7 @@ const Navbar = () =>{
                                     className=" ab  xl:text-8xl text-4xl   font-bold  text-[#605e5e]  hover:text-[#B5B5B5] tracking-wide"
                                         
                                 >
-                                    <Link className='' to="/Services">Services</Link>
+                                    <a className='' href="#Services">Services</a>
                                 </motion.button>                                                
                             </motion.div>
                         </motion.nav>
@@ -87,7 +86,7 @@ const Navbar = () =>{
                                 className=" ab   xl:text-8xl text-4xl   font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
                                     
                                 >
-                                    <Link className='' to="/Mancave">Mancave</Link> 
+                                    <a  className='' href="#Mancave">Mancave</a> 
                                 </motion.button>                                                 
                             </motion.div>
                         </motion.nav>
@@ -102,7 +101,7 @@ const Navbar = () =>{
                                     className=" ab  xl:text-8xl text-4xl  font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5] "
                                     
                                 >
-                                    <Link className='' to="/Career">Career</Link> 
+                                    <a className='' href="#Career">Career</a> 
                                 </motion.button>                                                
                             </motion.div>
                         </motion.nav>
@@ -117,7 +116,7 @@ const Navbar = () =>{
                                     className="ab  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
                                     
                                 >
-                                    <Link className='' to="/Connect">Connect</Link>  
+                                    <a className='' href="#Connect">Connect</a>  
                                 </motion.button>                             
                             </motion.div>
                         </motion.nav>

@@ -340,7 +340,7 @@ function ServicesC() {
       document.addEventListener('contextmenu', event => event.preventDefault());
         return (
 
-          <div className="select-none service flex flex-row h-auto object-contain start w-full items- justify-center gap-5" ref={ref}>
+          <div id="Services" className="select-none service flex flex-row h-auto object-contain start w-full items- justify-center gap-5"  ref={ref}>
             
             <div className=" pt-60  pb-[300px] sm:flex hidden start w-[40%] pl-10 ">
             <div className="  flex items-center justify-center  text-5xl ah h-[400px]  sticky top-[250px] w-[100%]"> 
@@ -382,9 +382,11 @@ function ServicesC() {
                    <div className='w-full first-paragraph '>
                       <p className='box-1 sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Not just your Ordinary Branding Agency</p>
                       <p className=" al pt-4 text-justify leading-7 text-[19px] "data-aos="fade-up">
-                        Your brand is your reputation and those small details and trends tend to make a huge impact on eyes, 
-                        hearts and minds of the people around you. Making people Admire those small details and streaks creates 
-                        a huge impact on their subconscious minds, which is nothing but magic. And we do that magic for you!
+                      Your brand is the cornerstone of your reputation, and it's the little things that can make a big impact 
+                      on how people perceive your business. At our company, we help you showcase the unique qualities of your 
+                      brand and forge an emotional connection with your audience, leaving a lasting impression on their 
+                      subconscious minds. With our expertise, you can build a strong, positive reputation and connect 
+                      with your audience in a meaningful way.
                       </p>
                     </div>
                  </li>
@@ -393,11 +395,12 @@ function ServicesC() {
                    <div className='second-paragraph '>
                     <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
                     <p className=" pt-5 al text-justify leading-7 text-[19px]">
-                      From using the referral code for an extra 20% discount to getting us to follow a new skin care routine, 
-                      the influencers got us. Not just us you too. These people are backed up by loyal audiences who relate themselves 
-                      with them. So why still underestimate the power of the new age word of mouth marketing. Let Grustl be the bridge 
-                      between the brand and the influencer, so the influencer as well as the brand can skip the tedious process of outreach, 
-                      building strategies and running campaigns.
+                    Influencers have a powerful sway over their loyal audiences, and can be effective 
+                    at promoting products and services through word-of-mouth marketing. From offering 
+                    referral codes for discounts to sharing tips for new skin care routines, influencers 
+                    can help drive business for your brand. At Grustl, we serve as a bridge between brands 
+                    and influencers, simplifying the process of outreach, strategy development, and campaign 
+                    management. Let us help you harness the power of influencer marketing and grow your business.
                     </p>
                     </div>
                  </li>
@@ -406,10 +409,12 @@ function ServicesC() {
                     <div className='third-paragraph '>
                       <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'> It’s high time to define your brand</p>
                       <p className=" pt-5 al text-justify leading-7 text-[19px]">
-                        Questions like what is the meaning of the brand, why does it exist, what is the market volume, 
-                        how to win over competitors and hence forth must be addressed. Before vaguely coming up with solutions 
-                        we at Grustl do intense case studies and immense research to full-fill the problem of how the brand wants 
-                        to be perceived and how the ideal customer perceives the brand. 
+                      Before we can help your brand succeed, it's crucial to have a deep understanding of 
+                      the market and your competition. At Grustl, we conduct thorough research and case 
+                      studies to uncover the answers to important questions about your brand's purpose, 
+                      its place in the market, and how to stand out from the competition. By gaining insight 
+                      into how you want to be perceived and how your ideal customer sees you, we can develop 
+                      a tailored, effective brand strategy that helps you achieve your goals.
                       </p>
                     </div>
                 </li>
@@ -418,10 +423,10 @@ function ServicesC() {
                     <div className='fourth-paragraph '>
                       <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>
                       <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]">
-                        More than time burnt on designing and planning content, we spend majority of our time on 
-                        analysing the needs of brands. By just pointing out the North Star brand which is nothing 
-                        but the brands those are similar to the brand that we want to create or become, we at grustl 
-                        can obtain insights and concepts to get you there to where you wanted to be.
+                      At Grustl, we focus on understanding the needs of our clients' brands and providing tailored solutions. 
+                      By identifying the "North Star" brands that align with your desired brand identity, we can gain insights 
+                      and develop concepts to help you achieve your goals. Rather than spending excessive time on content design 
+                      and planning, we prioritize analysis and strategic planning to ensure the success of your brand.
                       </p>
                     </div>
                  </li>

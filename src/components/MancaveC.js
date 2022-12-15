@@ -9,6 +9,7 @@ import kiran from '../images/kiranmancave.png'
 import thiksha from '../images/thikshamancave.png'
 import kitty from '../images/kittymancave.png'
 import pratap from '../images/pratapmancave.png'
+import sriram from '../images/srirammancave.png'
 import {Link} from 'react-router-dom';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -17,7 +18,7 @@ import rishivid from '../images/rishivid.gif'
 import kiranvid from '../images/kiranvid.gif'
 import thikshavid from '../images/thikshavid.gif'
 import pratapvid from '../images/pratapvid.gif'
-import slider from '../images/slider.png'
+
 
 function MancaveC() {
   useEffect(()=>{
@@ -30,7 +31,7 @@ function MancaveC() {
  
 
   return (
-    <div className='select-none h-auto flex flex-col items-center justify-center bg-black z-20 ' data-aos="fade-up" data-aos-easing="ease-in-out">
+    <div id="Mancave" className='select-none h-auto flex flex-col items-center justify-center bg-black z-20 ' data-aos="fade-up" data-aos-easing="ease-in-out">
       <div className='bg-black h-[60%] pt-96 sm:pt-0 sm:h-screen flex items-center justify-center w-full'  >
         <div className=" " data-Aos="fade-up fade-out" data-aos-delay="400">
           <div  className='ah  bg-black flex flex-col  text-7xl xl:text-9xl gap-0  text-white   justify-center  z-50  fade fadeIn'  >
@@ -42,7 +43,7 @@ function MancaveC() {
       </div>
 
       {/* Desktop Site*/ }
-      <div className='hidden sm:flex   w-90hv   flex-row items-center justify-center pb-[20px]  pl-40 pr-[20px]' data-aos="fade-up" data-aos-easing="ease-in-out">
+      <div className='hidden sm:flex   w-90hv  flex-row items-center justify-center pb-[20px]  pl-40 pr-[20px]' data-aos="fade-up" data-aos-easing="ease-in-out">
         <Link className='z-0 card -ml-20' to='/Mancave/Guna'>
           <button className='mgbg    '><img src={guna} class=" saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
@@ -52,15 +53,19 @@ function MancaveC() {
         <Link className='z-20 card -ml-32' to='/Mancave/Kiran'>
           <button className='mkbg   '><img src={kiran} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
-        <Link className='card z-30 -ml-32' to='/Mancave/Thiksha'>
+        <Link className='card z-30 -ml-28' to='/Mancave/Kitty'>
+          <button className='mksribg  '><img src={sriram} class="saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
+        </Link>
+        <Link className='card z-40 -ml-32' to='/Mancave/Thiksha'>
           <button className='mtbg  '><img src={thiksha} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
-        <Link className=' card z-40 -ml-32  ' to='/Mancave/Pratap'>
+        <Link className=' card z-50 -ml-32  ' to='/Mancave/Pratap'>
           <button className='mkprabg  '><img src={pratap} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
-        <Link className='card z-50 -ml-28' to='/Mancave/Kitty'>
+        <Link className='card z-60 -ml-28' to='/Mancave/Kitty'>
           <button className='mkitbg  '><img src={kitty} class="saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
+        
         
         
       </div>
@@ -68,10 +73,17 @@ function MancaveC() {
     
       {/*Mobile Div*/ }
       
-      <AwesomeSlider className='h-screen sm:h-0 invisible'data-aos="fade-up" data-aos-easing="ease-in-out" >
+      <AwesomeSlider buttons={true} 
+      organicArrows={false}
+      buttonContentRight={<p style={{ color: "white" }}>left</p>}
+      buttonContentLeft={<p style={{ color: "white" }}>Right</p>}
+      play
+      cancelOnInteraction={false} // should stop playing on user interaction
+      interval={6000} 
+      className='h-screen sm:h-0 invisible 'data-aos="fade-up" data-aos-easing="ease-in-out"  >
 
         {/*Guna*/}
-        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll relative pb-40 pt-40 bg-black'>
+        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto  relative pb-40 pt-40 bg-black' >
           <div className='w-[100%] flex items-center justify-center '>
             <img src={gunavid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
             <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center   pt-28 mb-48  bg-gradient-to-t from-black to-transparent via-black'>
@@ -121,7 +133,7 @@ function MancaveC() {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                   KIRAN <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#B29A73] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#296152] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>STUDIO</p>  <p className='ah'>TASK MANAGER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>

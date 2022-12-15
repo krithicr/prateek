@@ -19,7 +19,9 @@ function Pratap() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        This Dawg is a Geek. Plays trial and error game with algorithms of various mediums by the day and turns into a data analyst by night. His No. 1 friend being the pizza delivery guy that he gets to greet him atleast thrice a week. Man knows how to play the algorithm game right. </p>
+                        I am a true geek who spends my days experimenting with algorithms and my nights analyzing 
+                        data. I am friendly with my local pizza delivery person, who visits me at least three times 
+                        a week. I am skilled at working with algorithms and know how to use them to my advantage. </p>
                     </div>
                 </div>
             </div>

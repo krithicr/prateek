@@ -22,7 +22,11 @@ function Guna() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        Pure Tech Junkie who steps into the office in the morning with a snack in his left hand and a  log book to debug the previous days bugs in his right hand. He Loves his coffee soo much that he can chug 11 cups of coffee a day and still feel the caffeine rush is insufficient. </p>
+                        I am a tech junkie who starts each day by fueling up on coffee, always seeking that 
+                        perfect caffeine rush and tackling any lingering bugs from the previous day.  
+                        My love for technology and coffee drives me to constantly improve and innovate, 
+                        and I am always looking for ways to enhance my skills and contribute to the success 
+                        of the team.”</p>
                     </div>
                 </div>
             </div>

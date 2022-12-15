@@ -13,7 +13,7 @@ function Kiran() {
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
-                    <div className='w-[420px] h-12 text-3xl bg-[#B29A73] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
+                    <div className='w-[420px] h-12 text-3xl bg-[#296152] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
                         <p className='al'>STUDIO  </p><p className='ah pl-2'>TASK MASTER</p>
                     </div>
                     <div className='ah pt-10 text-white text-4xl '>
@@ -21,7 +21,10 @@ function Kiran() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        This guy is the Real Deal. He is the light house of entertainment of the Grustl House and keeps everyone occupied. The day he doesn’t turn up it’s a dull day here. He is the Gate Keeper and has passed the punctuality check. Bro is the Real G. </p>
+                        As the supervisor and coordinator of the studio, I am responsible for ensuring that 
+                        our goals are met. I am known for my attention to detail and thorough knowledge of 
+                        the studio's operations. I have consistently demonstrated my reliability and punctuality, 
+                        making me a valuable asset to our team. </p>
                     </div>
                 </div>
             </div>

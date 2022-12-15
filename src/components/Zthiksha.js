@@ -20,7 +20,9 @@ function ThikshaC() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        Like every gang has someone who turns up late to work, here she’s the one. But manages to get things done in a snap. Spends a lot of time brainstorming her inspiration ideas to the team. But this kid’s got sales in her Dna, she can sell out events in a blink.</p>
+                        I may be known for occasionally being late to work, but will get things done. I spend a 
+                        lot of time brainstorming and sharing my creative ideas with the team. Despite this, I have 
+                        a natural talent for sales and am able to successfully sell out events in a short amount of time.</p>
                     </div>
                 </div>
             </div>

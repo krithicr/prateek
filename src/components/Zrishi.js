@@ -20,7 +20,11 @@ function RishiC() {
                     </div>
                     <div className='flex items-center justify-center sm:items-start sm:justify-start'>
                         <p className='text-[#A4A4A4] text-[18px] pt-3 text-justify w-[95%] sm:w-[70%] al'>
-                        Bro’s got no chills that he drifts his car into the parking lot every morning. Sits in his workspace and unpacks his space suit like backpack and pulls out his RGB setup from the future where he spends most of his time. Rishi is a night owl. He spends time animating and perfecting designs and he never tend to get off his workspace until he gets the solution for the problem. </p>
+                        I am a passionate and dedicated worker who is always looking for ways to improve and innovate. 
+                        I arrive at the office each morning with my futuristic RGB setup in tow, ready to tackle the day's 
+                        challenges. As a night owl, I often spend late nights animating and perfecting designs, determined 
+                        to find solutions to even the most difficult problems. With my fearless attitude and love for technology, 
+                        I am a valuable asset to our team. </p>
                     </div>
                 </div>
             </div>
