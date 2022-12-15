@@ -33,7 +33,7 @@ const Navbar = () =>{
 
     return(
   
-        <IconContext.Provider value={{ color: 'grey' }} className="ah" >
+        <IconContext.Provider value={{ color: 'grey' }} className="ab" >
             <motion.div className=" flex flex-col items-start"  onClick={showSidebar}>
                 <motion.maindiv className= " absolute h-screen w-screen flex  items-center  justify-start pl-28   bg-gradient-to-r from-white to-gray-300  backdrop-blur-xl" 
                  animate={show ? "open" : "closed"}
@@ -53,7 +53,7 @@ const Navbar = () =>{
                         >
                             <motion.div className="inner-nav " onClick={showSidebar} >       
                             <motion.button
-                                className=" ah font-bold  xl:text-8xl text-4xl hover:text-[#B5B5B5] text-[#605e5e] tracking-wide line-height: 1rem "
+                                className=" ab font-bold  xl:text-8xl text-4xl hover:text-[#B5B5B5] text-[#605e5e] tracking-wide line-height: 1rem "
                                 
                             >
                                     <Link className='gap-2' to="/">Home</Link>
@@ -69,7 +69,7 @@ const Navbar = () =>{
                         >
                             <motion.div className="inner-nav" onClick={showSidebar}>       
                                 <motion.button
-                                    className=" ah  xl:text-8xl text-4xl   font-bold  text-[#605e5e]  hover:text-[#B5B5B5] tracking-wide"
+                                    className=" ab  xl:text-8xl text-4xl   font-bold  text-[#605e5e]  hover:text-[#B5B5B5] tracking-wide"
                                         
                                 >
                                     <Link className='' to="/Services">Services</Link>
@@ -84,7 +84,7 @@ const Navbar = () =>{
                         >
                             <motion.div className="inner-nav" onClick={showSidebar} >       
                                 <motion.button
-                                className=" ah   xl:text-8xl text-4xl   font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                                className=" ab   xl:text-8xl text-4xl   font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
                                     
                                 >
                                     <Link className='' to="/Mancave">Mancave</Link> 
@@ -99,7 +99,7 @@ const Navbar = () =>{
                         >
                             <motion.div className="inner-nav" onClick={showSidebar}>       
                                 <motion.button
-                                    className=" ah  xl:text-8xl text-4xl  font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5] "
+                                    className=" ab  xl:text-8xl text-4xl  font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5] "
                                     
                                 >
                                     <Link className='' to="/Career">Career</Link> 
@@ -114,7 +114,7 @@ const Navbar = () =>{
                         >
                             <motion.div className="inner-nav" onClick={showSidebar}>
                                 <motion.button 
-                                    className="ah  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
+                                    className="ab  xl:text-8xl text-4xl font-bold  text-[#605e5e] tracking-wide  hover:text-[#B5B5B5]"
                                     
                                 >
                                     <Link className='' to="/Connect">Connect</Link>  

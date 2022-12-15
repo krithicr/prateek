@@ -8,6 +8,11 @@
   font-family: Avenir-Heavy;
   src: url("/src/font - Copy/AvenirLTStd-Heavy.otf") format("opentype");
 }
+
+@font-face {
+  font-family: Avenir-Black;
+  src: url("/src/font - Copy/AvenirLTStd-Black.otf") format("opentype");
+}
 .bgg{
   background-image: url(/src/images/bg.jpg);
   background-size: contain;
@@ -112,7 +117,9 @@
   background-image: url(/src/images/mancavemobilebg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 60;
+
+  
+  
 
 
 }
@@ -124,6 +131,11 @@
 .ah {
   
   font-family: 'Avenir-Heavy';
+}
+
+.ab {
+  
+  font-family: 'Avenir-Black';
 }
 
 
@@ -241,7 +253,3 @@ input:invalid[focused="true"] ~ span{
 
 
 
-.card{
-  /* margin-left: -9rem;
-  box-shadow: 4px 4px; */
-}

@@ -413,7 +413,7 @@ function ServicesC() {
                       </p>
                     </div>
                 </li>
-                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb" data-aos="fade-up" data-aos-easing="ease-in-out">
+                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb " data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Consulting</p> 
                     <div className='fourth-paragraph '>
                       <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>

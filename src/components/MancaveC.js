@@ -16,6 +16,8 @@ import gunavid from '../images/1.gif'
 import rishivid from '../images/rishivid.gif'
 import kiranvid from '../images/kiranvid.gif'
 import thikshavid from '../images/thikshavid.gif'
+import pratapvid from '../images/pratapvid.gif'
+import slider from '../images/slider.png'
 
 function MancaveC() {
   useEffect(()=>{
@@ -40,9 +42,9 @@ function MancaveC() {
       </div>
 
       {/* Desktop Site*/ }
-      <div className='hidden sm:flex   w-[1200px]   flex-row items-center justify-center' data-aos="fade-up" data-aos-easing="ease-in-out">
+      <div className='hidden sm:flex   w-90hv   flex-row items-center justify-center pb-[20px]  pl-40 pr-[20px]' data-aos="fade-up" data-aos-easing="ease-in-out">
         <Link className='z-0 card -ml-20' to='/Mancave/Guna'>
-          <button className='mgbg    '><img src={guna} class="saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6 " alt=""/></button>
+          <button className='mgbg    '><img src={guna} class=" saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
         <Link className=' z-10 card -ml-32'  to='/Mancave/Rishi'>
           <button className='mrbg   '><img src={rishi} class="saturate-0 hover:saturate-100  duration-1000  translate-x-2 hover:-translate-x-6 " alt=""/></button>
@@ -53,12 +55,13 @@ function MancaveC() {
         <Link className='card z-30 -ml-32' to='/Mancave/Thiksha'>
           <button className='mtbg  '><img src={thiksha} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
-        <Link className='card z-40 -ml-32' to='/Mancave/Kitty'>
-          <button className='mkitbg  '><img src={kitty} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className=' card z-50 -ml-32  ' to='/Mancave/Pratap'>
+        <Link className=' card z-40 -ml-32  ' to='/Mancave/Pratap'>
           <button className='mkprabg  '><img src={pratap} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
         </Link>
+        <Link className='card z-50 -ml-28' to='/Mancave/Kitty'>
+          <button className='mkitbg  '><img src={kitty} class="saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
+        </Link>
+        
         
       </div>
 
@@ -68,19 +71,19 @@ function MancaveC() {
       <AwesomeSlider className='h-screen sm:h-0 invisible'data-aos="fade-up" data-aos-easing="ease-in-out" >
 
         {/*Guna*/}
-        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll bg-black relative pb-40 pt-40'>
-          <div className='w-[100%] flex items-center justify-center mcmobbg'>
+        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll relative pb-40 pt-40 bg-black'>
+          <div className='w-[100%] flex items-center justify-center '>
             <img src={gunavid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
-            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center '>
-              <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
+            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center   pt-28 mb-48  bg-gradient-to-t from-black to-transparent via-black'>
+              <div className='flex flex-col '>
                 <div className='ah w-full  pt-0 text-[#464646] text-4xl'>
                   GUNA <br></br>
                 </div>
-                <div className='   w-full text-[12px]  text-[#D4D4D4]  flex flex-row rounded-sm tracking-wider'>
-                        <p className='al pl-2 bg-[#912D38]'>FULL STACK </p><p className='ah pl-2 bg-[#912D38] pr-2'>DEVELOPER</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#912D38] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>FULL STACK</p>  <p className='ah'> DEVELOPER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
-                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify pb-40  '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify   '>
                     Pure Tech Junkie who steps into the office in the morning with a snack in his left hand and a  log book to debug the previous days bugs in his right hand. He Loves his coffee soo much that he can chug 11 cups of coffee a day and still feel the caffeine rush is insufficient. </p>
                 </div>
               </div>
@@ -92,16 +95,16 @@ function MancaveC() {
         <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll bg-black relative pb-40 pt-40'>
           <div className='w-[100%] flex items-center justify-center mcmobbg'>
             <img src={rishivid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
-            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center '>
-              <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
+            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center pt-28 mb-40  bg-gradient-to-t from-black to-transparent via-black'>
+              <div className='flex flex-col  '>
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                   RISHI <br></br>
                 </div>
-                <div className='   w-full text-[12px]  text-[#D4D4D4]  flex flex-row rounded-sm tracking-wider'>
-                        <p className='al pl-2 bg-[#225BBB]'>WEB </p><p className='ah pl-2 bg-[#225BBB] pr-2'>DEVELOPER</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#225BBB] flex flex-row gap-2 items-center justify-center py-[2px] w-[35%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>WEB</p>  <p className='ah'> DEVELOPER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
-                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify pb-40  '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify  '>
                   Bro’s got no chills that he drifts his car into the parking lot every morning. Sits in his workspace and unpacks his space suit like backpack and pulls out his RGB setup from the future where he spends most of his time. Rishi is a night owl. He spends time animating and perfecting designs and he never tend to get off his workspace until he gets the solution for the problem. </p>
                 </div>
               </div>
@@ -113,16 +116,16 @@ function MancaveC() {
         <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll bg-black relative pb-40 pt-40'>
           <div className='w-[100%] flex items-center justify-center mcmobbg'>
             <img src={kiranvid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
-            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center '>
-              <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
+            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center pt-28 mb-40  bg-gradient-to-t from-black to-transparent via-black'>
+              <div className='flex flex-col  '>
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                   KIRAN <br></br>
                 </div>
-                <div className='   w-full text-[12px]  text-[#D4D4D4]  flex flex-row rounded-sm tracking-wider'>
-                        <p className='al pl-2 bg-[#B29A73]'>STUDIO </p><p className='ah pl-2 bg-[#B29A73] pr-2'>TASK MANAGER</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#B29A73] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>STUDIO</p>  <p className='ah'>TASK MANAGER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
-                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify pb-40  '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify   '>
                   This guy is the Real Deal. He is the light house of entertainment of the Grustl House and keeps everyone occupied. The day he doesn’t turn up it’s a dull day here. He is the Gate Keeper and has passed the punctuality check. Bro is the Real G. </p>
                     </div>
               </div>
@@ -134,16 +137,16 @@ function MancaveC() {
         <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll bg-black relative pb-40 pt-40'>
           <div className='w-[100%] flex items-center justify-center mcmobbg'>
             <img src={thikshavid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
-            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center '>
-              <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
+            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center  pt-28 mb-40  bg-gradient-to-t from-black to-transparent via-black'>
+              <div className='flex flex-col  '>
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 THIKSHA <br></br>
                 </div>
-                <div className='   w-full text-[12px]  text-[#D4D4D4]  flex flex-row rounded-sm tracking-wider'>
-                        <p className='al pl-2 bg-[#6C553D]'>CONTENT </p><p className='ah pl-2 bg-[#6C553D] pr-2'> STRATEGIST</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>CONTENT</p>  <p className='ah'>STRATEGIST</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
-                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify pb-40  '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>
                     Like every gang has someone who turns up late to work, here she’s the one. But manages to get things done in a snap. Spends a lot of time brainstorming her inspiration ideas to the team. But this kid’s got sales in her Dna, she can sell out events in a blink.</p>
                   </div>
               </div>
@@ -151,6 +154,26 @@ function MancaveC() {
           </div>
         </div>
 
+        {/*pratap*/ }
+        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto overflow-x-scroll bg-black relative pb-40 pt-40'>
+          <div className='w-[100%] flex items-center justify-center mcmobbg'>
+            <img src={pratapvid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
+            <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center  pt-28 mb-40  bg-gradient-to-t from-black to-transparent via-black'>
+              <div className='flex flex-col  '>
+                <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
+                PRATAP <br></br>
+                </div>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#564F3E] flex flex-row gap-2 items-center justify-center py-[2px] w-[30%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>SEO</p>  <p className='ah'>ANALYST</p>
+                </div>
+                <div className='flex items-center justify-center  w-[100%] '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>
+                  This Dawg is a Geek. Plays trial and error game with algorithms of various mediums by the day and turns into a data analyst by night. His No. 1 friend being the pizza delivery guy that he gets to greet him atleast thrice a week. Man knows how to play the algorithm game right. </p>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
         
       </AwesomeSlider>
      

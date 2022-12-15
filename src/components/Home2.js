@@ -50,8 +50,8 @@ function Home2() {
 
 return (
     <div class=" h-auto hidden sm:flex flex-col items-center justify-center text-center  pb-40">
-      <div class=" w-full  sticky top-[100px] h-screen object-fill">
-          <video className="video" src={homevid} type="video/mp4" autoplay={"true"} muted ></video>
+      <div class=" w-auto  sticky top-[0px] h-screen object-cover">
+          <video className=" sm:object-cover h-screen w-screen" src={homevid} type="video/mp4" autoplay={"true"} muted ></video>
       </div>
       <div class="flex flex-row text-[#909090] z-10 items-end justify-start h-[90%]">
         <div className='w-[40%]'>
