@@ -11,6 +11,9 @@ import Kiran from './components/Zkiran';
 import Pratap from './components/Zpratap';
 import Thiksha from './components/Zthiksha';
 import Kitty from './components/Zkitty';
+import Sriram from './components/Zsriram';
+import Prano from './components/Zprano';
+import Sriyaa from './components/Zsriyaa';
 import FooterC from './components/FooterC';
 import { Route, Routes } from "react-router-dom";
 import Connectform from './components/Connectform';
@@ -34,6 +37,9 @@ function App() {
           <Route path='/Mancave/pratap' element={<Pratap />} />
           <Route path='/Mancave/thiksha' element={<Thiksha />} />
           <Route path='/Mancave/Kitty' element={<Kitty />} />
+          <Route path='/Mancave/sriram' element={<Sriram />} />
+          <Route path='/Mancave/Prano' element={<Prano />} />
+          <Route path='/Mancave/Sriyaa' element={<Sriyaa />} />
           <Route path='/Connect' element={<ConnectC />} />
           <Route path='/Connect/connectfrom' element={<Connectform />} />
           <Route path='/Career' element={<CareerC />} />

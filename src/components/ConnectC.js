@@ -21,11 +21,11 @@ function ConnectC() {
       <div className=' flex flex-col sm:flex-row items-center justify-center h-screen 'data-aos="fade-up" data-aos-easing="ease-in-out">
         
           <div className=' flex flex-col w-[90%] sm:w-[40%] items-center justify-center sm:items-start sm:justify-center' data-aos="fade-up" data-aos-easing="ease-in-out">
-            <div className='text-white text-5xl sm:text-8xl font-bold ah text-center sm:text-left'>
+            <div className='text-white text-4xl sm:text-6xl font-bold ah text-center sm:text-left'>
                 Reach the <br></br>
                 grustl Minds.
             </div>
-            <div className=' w-[100%] pt-10 sm:pt-20  items-center justify-center sm:w-[75%] text-white al text-center sm:text-justify text-xl sm:text-[26px] font-medium leading-8' data-aos="fade-up" data-aos-easing="ease-in-out ">
+            <div className=' w-[100%] pt-10 sm:pt-20  items-center justify-center sm:w-[75%] text-white al text-center sm:text-justify text-xl sm:text-[18px] font-medium leading-8' data-aos="fade-up" data-aos-easing="ease-in-out ">
               
               Thank you for considering Grustl for your upcoming call. Please use our calendar to find a convenient time that works for you, 
               and we look forward to connect with you soon. 

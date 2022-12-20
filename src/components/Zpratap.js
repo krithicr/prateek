@@ -11,8 +11,8 @@ function Pratap() {
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
-                    <div className='w-[420px] h-12 text-3xl bg-[#564F3E] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
-                        <p className='al'>SEO  </p><p className='ah pl-2'> ANALYST</p>
+                    <div className='w-auto h-12 text-3xl bg-[#564F3E] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
+                        <p className='al ml-5'>SEO  </p><p className='ah pl-2 mr-5'> ANALYST</p>
                     </div>
                     <div className='ah pt-10 text-white text-4xl '>
                     PRATAP <br></br>

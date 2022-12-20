@@ -13,6 +13,10 @@ module.exports = {
         '20':'0.2'
 
       }},
+      backdropBlur: {
+        max: '1000px',
+      },
+     
     
   },
   plugins: [

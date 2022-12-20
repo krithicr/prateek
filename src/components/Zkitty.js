@@ -12,8 +12,8 @@ function KittyC() {
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
-                    <div className='w-[440px] h-12 text-3xl bg-[#3C5A77] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
-                        <p className='al'>SOCIAL MEDIA  </p><p className='ah pl-2'>STRATEGIST</p>
+                    <div className='w-auto h-12 text-3xl bg-[#3C5A77] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
+                        <p className='al ml-5'>SOCIAL MEDIA  </p><p className='ah pl-2 mr-5'>STRATEGIST</p>
                     </div>
                     <div className='ah pt-10 text-white text-4xl '>
                     Kitty <br></br>

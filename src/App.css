@@ -64,12 +64,22 @@
   background-position: center;
 
 }
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+.carousel-item {
+  flex-shrink: 0;
+  width: 25%;
 
+}
 .mgbg{
   background-image: url(/src/images/box\ g.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+
   
 }
 .mkbg{
@@ -78,12 +88,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-  
+
 }
 
 .mrbg{
   background-image: url(/src/images/box\ r.png);
- 
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -92,7 +102,7 @@
 
 .mtbg{
   background-image: url(/src/images/box\ t.png);
- 
+  padding-top: 14px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -104,6 +114,23 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+
+}
+
+.mkpranobg{
+  background-image: url(/src/images/box\ prano.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+.mksriyaabg{
+  background-image: url(/src/images/box\ sriya.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
 }
 
 .mksribg{
@@ -111,6 +138,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+
 }
 
 .mkprabg{
@@ -118,6 +146,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
+  padding-top: 23px;
+
 }
 
 .mcmobbg{

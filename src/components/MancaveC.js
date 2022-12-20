@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable no-lone-blocks */
 import Aos from 'aos';
 import"aos/dist/aos.css";
@@ -10,6 +11,8 @@ import thiksha from '../images/thikshamancave.png'
 import kitty from '../images/kittymancave.png'
 import pratap from '../images/pratapmancave.png'
 import sriram from '../images/srirammancave.png'
+import prano from '../images/pranomancave.png'
+import sriyaa from '../images/sriyaamancave.png';
 import {Link} from 'react-router-dom';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -27,11 +30,12 @@ function MancaveC() {
       mirror: true,});
   }, []);
 
+  
   document.addEventListener('contextmenu', event => event.preventDefault());
  
 
   return (
-    <div id="Mancave" className='select-none h-auto flex flex-col items-center justify-center bg-black z-20 ' data-aos="fade-up" data-aos-easing="ease-in-out">
+    <div id="Mancave" className='select-none  flex flex-col items-center justify-center bg-black z-20 ' data-aos="fade-up" data-aos-easing="ease-in-out">
       <div className='bg-black h-[60%] pt-96 sm:pt-0 sm:h-screen flex items-center justify-center w-full'  >
         <div className=" " data-Aos="fade-up fade-out" data-aos-delay="400">
           <div  className='ah  bg-black flex flex-col  text-7xl xl:text-9xl gap-0  text-white   justify-center  z-50  fade fadeIn'  >
@@ -41,34 +45,19 @@ function MancaveC() {
           </div>
         </div>
       </div>
-
-      {/* Desktop Site*/ }
-      <div className='hidden sm:flex   w-90hv  flex-row items-center justify-center pb-[20px]  pl-40 pr-[20px]' data-aos="fade-up" data-aos-easing="ease-in-out">
-        <Link className='z-0 card -ml-20' to='/Mancave/Guna'>
-          <button className='mgbg    '><img src={guna} class=" saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className=' z-10 card -ml-32'  to='/Mancave/Rishi'>
-          <button className='mrbg   '><img src={rishi} class="saturate-0 hover:saturate-100  duration-1000  translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className='z-20 card -ml-32' to='/Mancave/Kiran'>
-          <button className='mkbg   '><img src={kiran} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className='card z-30 -ml-28' to='/Mancave/Kitty'>
-          <button className='mksribg  '><img src={sriram} class="saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className='card z-40 -ml-32' to='/Mancave/Thiksha'>
-          <button className='mtbg  '><img src={thiksha} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className=' card z-50 -ml-32  ' to='/Mancave/Pratap'>
-          <button className='mkprabg  '><img src={pratap} class=" saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        <Link className='card z-60 -ml-28' to='/Mancave/Kitty'>
-          <button className='mkitbg  '><img src={kitty} class="saturate-0 hover:saturate-100  duration-1000 translate-x-2 hover:-translate-x-6 " alt=""/></button>
-        </Link>
-        
-        
+      <div class="carousel pb-40 sm:flex hidden " data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div class="carousel-item mgbg z-0 "><Link  to='/Mancave/Guna'><button><img src={guna} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mrbg z-[10] -ml-40 "><Link  to='/Mancave/Rishi'><button><img src={rishi} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mkbg z-[12] -ml-40"><Link  to='/Mancave/Kiran'><button><img src={kiran} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mksriyaabg z-[13] -ml-40"><Link  to='/Mancave/Sriyaa'><button><img src={sriyaa} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mkpranobg z-[14] -ml-40 "><Link  to='/Mancave/Prano'><button><img src={prano} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mksribg z-[15] -ml-40"><Link  to='/Mancave/Sriram'><button><img src={sriram} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mtbg z-[16] -ml-40"><Link  to='/Mancave/Thiksha'><button><img src={thiksha} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mkprabg z-[17] -ml-40"><Link  to='/Mancave/Pratap'><button><img src={pratap} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
+        <div class="carousel-item mkitbg z-[18] -ml-40"><Link  to='/Mancave/Kitty'><button><img src={kitty} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
         
       </div>
+      
 
     
       {/*Mobile Div*/ }
@@ -92,7 +81,7 @@ function MancaveC() {
                   GUNA <br></br>
                 </div>
                 <div className='    text-[12px]  text-[#D4D4D4] bg-[#912D38] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
-                        <p className='al pl-2 '>FULL STACK</p>  <p className='ah'> DEVELOPER</p>
+                        <p className='al  ml-4'>FULL STACK</p>  <p className='ah mr-4'> DEVELOPER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify   '>

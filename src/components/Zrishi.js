@@ -12,8 +12,8 @@ function RishiC() {
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
-                    <div className='w-[420px] h-12 text-3xl bg-[#225BBB] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
-                        <p className='al'>WEB </p><p className='ah pl-2'>DEVELOPER</p>
+                    <div className='w-auto h-12 text-3xl bg-[#225BBB] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
+                        <p className='al ml-5'>WEB </p><p className='ah pl-2 mr-5'>DEVELOPER</p>
                     </div>
                     <div className='ah pt-10 text-white text-4xl '>
                         Rishi <br></br>

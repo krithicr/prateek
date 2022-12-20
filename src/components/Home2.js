@@ -3,7 +3,6 @@ import homevidmob from '../images/homevidmob.mp4'
 import { useEffect} from "react";
 import Aos from 'aos';
 import"aos/dist/aos.css";
-
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
@@ -19,7 +18,7 @@ function Home2() {
   }, []);
 
 return (
-    <div className='h-auto'>
+    <div className='h-auto z-0'>
         <div class=" h-auto hidden sm:flex flex-col items-center justify-center text-center  pb-40">
         <div class=" w-auto  sticky top-[0px] h-screen object-cover">
             <video className=" sm:object-cover h-screen w-screen" src={homevid} type="video/mp4" autoplay={"true"} muted ></video>
@@ -85,7 +84,7 @@ return (
     </div>
     <div className='flex flex-col sm:hidden h-auto'>
         <video src={homevidmob}  muted autoPlay={true}  type="video/mp4" autoplay={"true"}  className='object-fill '></video>
-        <div className='w-full h-[50%] '>
+        {/* <div className='w-full h-[50%] '>
         <AwesomeSlider className="bg-black" organicArrows={false} interval={9}>
             <div className='text-white w-[80%] text-center ' >
                 
@@ -121,7 +120,7 @@ return (
             </div>
 
         </AwesomeSlider>
-        </div>
+        </div> */}
         
 
     </div>
