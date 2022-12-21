@@ -10,9 +10,11 @@ module.exports = {
         '60':'0.6',
         '120':'1.2',
         '180':'1.8',
-        '20':'0.2'
+        '20':'0.2',
+        '65':'0.7'
 
       }},
+      
       backdropBlur: {
         max: '1000px',
       },
@@ -20,7 +22,8 @@ module.exports = {
     
   },
   plugins: [
-   
+    require('tailwind-scrollbar-hide')
+    // ...
   ],
   variants: {
    

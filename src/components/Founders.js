@@ -1,5 +1,5 @@
 
-import M5 from '../images/M5.jpg'
+
 import found from '../images/found.png'
 import backingus from '../images/backingus.png'
 import Aos from 'aos';
@@ -14,7 +14,7 @@ function FoundersC() {
       }, []);
       document.addEventListener('contextmenu', event => event.preventDefault());
     return(
-        <div className='flex items-center justify-center flex-col select-none' data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div className='flex items-center justify-center flex-col select-none pt-40' data-aos="fade-up" data-aos-easing="ease-in-out">
             <div className='bg-white h-auto sm:h-screen flex flex-col sm:flex-row w-[80%] ' >
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className='flex flex-col  items-center sm:justify-center justify-end sm:items-start  pt-40   w-full sm:w-[45%] text-justify sm:pt-10'>
                     <div className='text-6xl al  w-full'>Meet</div>
@@ -37,8 +37,8 @@ function FoundersC() {
                         </div>
                     </div>
                 </div>
-                <div className='sm:w-[55%] flex items-center justify-center  ' data-aos="fade-up" data-aos-easing="ease-in-out">
-                    <img src={found} className="sm:scale-60" alt='founders'/>
+                <div className='sm:w-[75%] flex items-center justify-center pl-40  ' data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <img src={found} className="sm:scale-65 2xl:scale-50" alt='founders'/>
                 </div>
             </div>
             <div className=' text-md  sm:hidden  flex flex-col items-center justify-center '>

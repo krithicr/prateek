@@ -84,8 +84,8 @@ return (
     </div>
     <div className='flex flex-col sm:hidden h-auto'>
         <video src={homevidmob}  muted autoPlay={true}  type="video/mp4" autoplay={"true"}  className='object-fill '></video>
-        {/* <div className='w-full h-[50%] '>
-        <AwesomeSlider className="bg-black" organicArrows={false} interval={9}>
+        <div className='w-full h-[50%] '>
+        <AwesomeSlider className="bg-black" Arrows={true} bullets={false} interval={9}>
             <div className='text-white w-[80%] text-center ' >
                 
                         At Grustl, we work with a diverse group of influencers and talented individuals to create 
@@ -120,7 +120,7 @@ return (
             </div>
 
         </AwesomeSlider>
-        </div> */}
+        </div>
         
 
     </div>
