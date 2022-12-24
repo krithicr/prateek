@@ -28,7 +28,7 @@ import kittyvid from '../images/kittyvid.gif'
 
 
 
-function MancaveC() {
+function MancaveC(props) {
   useEffect(()=>{
     Aos.init({duration:1000,
       once: false, 
@@ -57,7 +57,7 @@ function MancaveC() {
         </div>
       </div>
       
-      <div class="carousel pb-40 sm:flex hidden scrollbar-hide" data-aos="fade-up" data-aos-easing="ease-in-out">
+      <div class="carousel pb-40 sm:flex hidden scrollable-container" data-aos="fade-up" data-aos-easing="ease-in-out">
         <div class="carousel-item mgbg z-0 "><Link  to='/Mancave/Guna'><button><img src={guna} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
         <div class="carousel-item mrbg z-[10] -ml-40 "><Link  to='/Mancave/Rishi'><button><img src={rishi} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>
         <div class="carousel-item mkbg z-[12] -ml-40"><Link  to='/Mancave/Kiran'><button><img src={kiran} alt="Image 1" className='saturate-0 hover:saturate-100  duration-1000   translate-x-2 hover:-translate-x-6'/></button></Link></div>

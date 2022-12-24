@@ -288,3 +288,28 @@ input:invalid[focused="true"] ~ span{
 
 
 
+
+.scrollable-container {
+  /* Hide the default scrollbar */
+  overflow-x: scroll;
+  scrollbar-width: 0.2em; /* Firefox */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  /* Webkit-based browsers */
+  width: 0.2em;
+  background-color: #F5F5F5;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  /* Webkit-based browsers */
+  background-color: transparent;
+    background-color: gray;    /* color of the scroll thumb */
+    border-radius: 16px;       /* roundness of the scroll thumb */
+    border: 5px ;/* creates padding around scroll thumb */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+    
+  background-color: transparent;
+}
