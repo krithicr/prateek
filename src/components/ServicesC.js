@@ -390,11 +390,11 @@ function ServicesC() {
                       </p>
                     </div>
                  </li>
-                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
+                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="1000">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Influencer Marketing</p> 
                    <div className='second-paragraph '>
                     <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
-                    <p className=" pt-5 al text-justify leading-7 text-[19px]">
+                    <p className=" pt-5 al text-justify leading-7 text-[19px]"data-aos="fade-up" data-aos-easing="ease-in-out">
                     Influencers have a powerful sway over their loyal audiences, and can be effective 
                     at promoting products and services through word-of-mouth marketing. From offering 
                     referral codes for discounts to sharing tips for new skin care routines, influencers 
@@ -407,8 +407,8 @@ function ServicesC() {
                  <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah  pl-1 font-extrabol text-center sm:invisible '>Brand Strategy</p> 
                     <div className='third-paragraph '>
-                      <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'> It’s high time to define your brand</p>
-                      <p className=" pt-5 al text-justify leading-7 text-[19px]">
+                      <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl' > It’s high time to define your brand</p>
+                      <p className=" pt-5 al text-justify leading-7 text-[19px]" data-aos="fade-up" data-aos-easing="ease-in-out">
                       Before we can help your brand succeed, it's crucial to have a deep understanding of 
                       the market and your competition. At Grustl, we conduct thorough research and case 
                       studies to uncover the answers to important questions about your brand's purpose, 
@@ -421,8 +421,8 @@ function ServicesC() {
                  <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb " data-aos="fade-up" data-aos-easing="ease-in-out">
                    <p className='ah pl-1 font-extrabol text-center sm:invisible '>Consulting</p> 
                     <div className='fourth-paragraph '>
-                      <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>
-                      <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]">
+                      <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl' >Borrow the Grustl Brains</p>
+                      <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]" data-aos="fade-up" data-aos-easing="ease-in-out">
                       At Grustl, we focus on understanding the needs of our clients' brands and providing tailored solutions. 
                       By identifying the "North Star" brands that align with your desired brand identity, we can gain insights 
                       and develop concepts to help you achieve your goals. Rather than spending excessive time on content design 

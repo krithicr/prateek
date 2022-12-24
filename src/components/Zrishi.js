@@ -1,9 +1,12 @@
 import React from 'react';
 import rishivid from '../images/rishivid.gif'
-
+import { useNavigate} from 'react-router-dom';
+import { IconContext } from 'react-icons';
+import * as AiIcons from 'react-icons/ai';
  
 function RishiC() {
     document.addEventListener('contextmenu', event => event.preventDefault());
+    const navigate = useNavigate();
     return(
 
         <div className=' select-none flex sm:flex-row flex-col w-fill  h-auto sm:h-screen bg-black gunabg'>
@@ -12,6 +15,9 @@ function RishiC() {
             </div>
             <div className='basis-1/2 items-center justify-center flex '>
                 <div className='flex flex-col items-center justify-center sm:items-start sm:justify-start '>
+                <IconContext.Provider value={{ color: 'grey' }} className="ab  " >
+                        <button className='text-3xl   flex items-center  justify-end pb-10 w-[60%] ' onClick={() => navigate(-1)}><AiIcons.AiOutlineClose/></button> 
+                    </IconContext.Provider>
                     <div className='w-auto h-12 text-3xl bg-[#225BBB] text-[#D4D4D4]   flex items-center justify-center rounded-sm tracking-wider'>
                         <p className='al ml-5'>WEB </p><p className='ah pl-2 mr-5'>DEVELOPER</p>
                     </div>

@@ -1,10 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import { useState } from 'react';
-import insta from '../images/instagram.svg'
-import twitter from '../images/twitter.svg'
-import mail from '../images/mail.svg'
-import grlogo from '../images/grlogo.png'
+import grlogo from '../images/logo.svg';
 import Forminput from './Forminput.js'
 import "../App.css";
 
@@ -59,9 +56,9 @@ const Connectform = () => {
       id: 5,
       name: "Requirements",
       type: "text",
-      placeholder: "Enter your Requirements",
+      placeholder: "Enter your Requirements ",
       errorMessage:
-        "Enter your requirements so that we could help you!",
+        "Enter your requirements so that we could help you! ",
       required: true,
     },
   ];
@@ -89,7 +86,7 @@ const Connectform = () => {
   return (
     <div className='flex flex-row sm:flex-col'>
         <div className='z-50 shadow-xl bg-blend-overlay  flex flex-col place-content-end items-end justify-center  w-full h-20 sm:h-[100px] fixed backdrop-blur-3xl'>
-         <img src={grlogo} id="name" className=" sm:w-[10%] pr-10  w-[30%]   " alt="" />
+          <a href="/" className=' h-full sm:w-[10%] pr-10 xl:w-[10%] w-[30%] pt-5'><img src={grlogo} id="name" className="  " alt="" /></a>   
         </div> 
         <div className='flex items-center justify-center h-screen gap-[240px] pt-20 logoform'>
           <div className='flex items-center bg-white justtify-center '>
@@ -97,7 +94,7 @@ const Connectform = () => {
                     <p className='al text-6xl'>with grustl.</p></p>
           </div>
           <div className='w-full max-w-md '>
-            <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
+            <form onSubmit={handleSubmit} className='flex flex-col gap-4 al  '>
               
               {inputs.map((input) => (
                 <Forminput
@@ -107,31 +104,10 @@ const Connectform = () => {
                   onChange={onChange}
                 />
               ))}
-              <div className='flex flex-row gap-3'>
-                <button className='inline-block p-5 w-64 bg-black text-white font-medium text-xs leading-tight uppercase rounded-2xl shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out '>SCHEDULE DEMO</button>
-                <div className='shadow appearance-none border'>
-                      <button
-                          type="button"
-                          data-mdb-ripple="true"
-                          data-mdb-ripple-color="light"
-                          className=" p-3 w-14  text-black font-medium text-xs rounded  hover:bg-gray-100 hover:shadow-lg focus:bg-gray-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-200 active:shadow-lg transition duration-150 ease-in-out">
-                              <img src={mail} className='ah' id='icon'></img>
-                        </button>
-                        <button
-                          type="button"
-                          data-mdb-ripple="true"
-                          data-mdb-ripple-color="light"
-                          className=" p-3 w-14  text-black font-medium text-xs rounded  hover:bg-gray-100 hover:shadow-lg focus:bg-gray-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-200 active:shadow-lg transition duration-150 ease-in-out">
-                              <img src={insta} className='ah' id='icon1'></img>
-                        </button>
-                        <button
-                          type="button"
-                          data-mdb-ripple="true"
-                          data-mdb-ripple-color="light"
-                          className=" p-3 w-14  text-black font-medium text-xs rounded  hover:bg-gray-100 hover:shadow-lg focus:bg-gray-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-200 active:shadow-lg transition duration-150 ease-in-out">
-                              <img src={twitter} className='ah' id='icon2'></img>
-                        </button>
-                </div>
+              <div className='flex flex-row gap-3 pt-5'>
+                <button className='flex items-center justify-center tracking-normal bg-black w-full  h-[65px]  al   text-white  border border-gray-400 rounded-xl shadow hover:bg-white hover:text-black duration-700'>
+                  SCHEDULE &nbsp;<span className='ah'>DEMO</span> 
+                </button> 
               </div>
           </form>
           </div>

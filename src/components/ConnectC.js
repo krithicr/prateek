@@ -29,9 +29,9 @@ function ConnectC() {
 
           </div>
 
-          <div className='sm:pt-0 pt-10  flex items-center justify-start sm:flex-row flex-col w-[20%]' data-aos="fade-up" data-aos-easing="ease-in-out">
+          <div className='sm:pt-0 pt-10  flex items-center justify-center sm:flex-row flex-col w-[20%]' data-aos="fade-up" data-aos-easing="ease-in-out">
             <Link className='connetform' to='/Connect/connectfrom'>
-              <button className='flex items-center justify-center bg-black w-[275px]  h-[75px]  text-2xl font-semibold text-white  border border-gray-400 rounded-xl shadow hover:bg-white hover:text-black duration-700'>
+              <button className='flex ah items-center justify-center bg-black w-[275px]  h-[75px]  text-2xl font-semibold text-white  border border-gray-400 rounded-xl shadow hover:bg-white hover:text-black duration-700'>
                 C O N N E C T
               </button>              
             </Link> 

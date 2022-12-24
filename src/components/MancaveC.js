@@ -51,8 +51,7 @@ function MancaveC() {
       <div className='bg-black h-[60%] pt-96 sm:pt-0 sm:h-screen flex items-center justify-center w-full'  >
         <div className=" " data-Aos="fade-up fade-out" data-aos-delay="400">
           <div  className='ah  bg-black flex flex-col  text-7xl xl:text-9xl gap-0  text-white   justify-center  z-50  fade fadeIn'  >
-              <p className='' >the <br></br>
-              mancave.
+              <p className='text-center w-full' >the mancave.
               </p>
           </div>
         </div>
@@ -162,7 +161,7 @@ function MancaveC() {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 SRIYAA <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#633D79] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>PUBLIC</p>  <p className='ah'>RELATION</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
@@ -185,7 +184,7 @@ function MancaveC() {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 PRANO <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#7D2E26] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>ARCHITECTURAL </p>  <p className='ah'>DESIGNER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
@@ -208,11 +207,11 @@ function MancaveC() {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 SRIRAM <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#5D61E7] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>MERCHANDISE </p>  <p className='ah'>CONSULTANT</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
-                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>
+                  <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>S
                   I am the driving force behind all of the custom resources that we have. 
                   From Grustl merch to custom Grustl notepads, I am responsible for ensuring 
                   that everything is taken care of and that the job is done. My dedication 
@@ -254,7 +253,7 @@ function MancaveC() {
             <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center  pt-28 mb-40  bg-gradient-to-t from-black to-transparent via-black'>
               <div className='flex flex-col  '>
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
-                PRATAP <br></br>
+                PRATHAP <br></br>
                 </div>
                 <div className='    text-[12px]  text-[#D4D4D4] bg-[#564F3E] flex flex-row gap-2 items-center justify-center py-[2px] w-[30%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>SEO</p>  <p className='ah'>ANALYST</p>

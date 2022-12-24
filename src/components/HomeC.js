@@ -8,7 +8,7 @@ function HomeC() {
     <div className='h-screen w-fill select-none front'>
       
       <div className='z-50 shadow-xl bg-blend-overlay  flex flex-col place-content-end items-end justify-center  w-full h-20 sm:h-[100px] fixed  backdrop-blur-max sm:backdrop-blur-3xl'>
-         <img src={grlogo} id="name" className=" sm:w-[10%] pr-10  w-[30%] " alt="" />
+        <a href="/" className=' h-full sm:w-[10%] pr-10 xl:w-[10%] w-[30%] pt-5'><img src={grlogo} id="name" className="  " alt="" /></a>
       </div>
       <div className=' sm:hidden flex h-screen items-center justify-center'>
         <div className='gruss'>
