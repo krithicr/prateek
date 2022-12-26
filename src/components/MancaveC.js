@@ -297,7 +297,9 @@ function MancaveC(props) {
         </div>
         
       </AwesomeSlider>
-     
+     <div className='w-full h-40 bg-black'>
+
+     </div>
      </div>
     );
 }
