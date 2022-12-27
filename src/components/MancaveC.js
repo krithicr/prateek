@@ -89,7 +89,10 @@ function MancaveC(props) {
                 </div>
                 <div className='    text-[12px]  text-[#D4D4D4] bg-[#912D38] flex flex-row gap-2 items-center justify-center py-[2px] w-[70%] rounded-sm tracking-wider'>
                         <p className='al  ml-4'>FULL STACK</p>  <p className='ah mr-4'> DEVELOPER</p>
+                        
                 </div>
+                <p className='text-sm text-zinc-500 -translate-y-32 w-full text-right'>  >> &nbsp;</p>
+                <p className='text-sm text-zinc-500 -translate-y-32 w-full text-right'>  Swipe</p>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify   '>
                   I am a tech junkie who starts each day by fueling up on coffee, always seeking that 

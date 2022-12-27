@@ -375,61 +375,78 @@ function ServicesC() {
              </div>
             </div>
             
-            <div className=" flex items-center justify-center text-2xl  h-auto w-full sm:w-[50%] text-justify pt-40 sm:pt-[250px]  ">
+            <div className=" flex items-center justify-center text-2xl  h-auto w-full sm:w-[50%] text-justify pt-0 sm:pt-[250px]  ">
                <ul className='  flex flex-col items-center justify-center'>
                  <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
-                   <p className=' ah pl-1 font-extrabol text-center sm:invisible '>Creative Branding</p> 
-                   <div className='w-full first-paragraph '>
-                      <p className='box-1 sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Not just your Ordinary Branding Agency</p>
-                      <p className=" al pt-4 text-justify leading-7 text-[19px] "data-aos="fade-up">
-                      Your brand is the cornerstone of your reputation, and it's the little things that can make a big impact 
-                      on how people perceive your business. At our company, we help you showcase the unique qualities of your 
-                      brand and forge an emotional connection with your audience, leaving a lasting impression on their 
-                      subconscious minds. With our expertise, you can build a strong, positive reputation and connect 
-                      with your audience in a meaningful way.
-                      </p>
+                   <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Creative <br></br>Branding</p> 
+                   <div className='w-full first-paragraph flex items-center justify-center flex-col'>
+                      <p className='box-1 w-full text-left  ah font-extrabol pt-4 text-2xl'>Not just your Ordinary Branding Agency</p>
+                      <div className='flex items-center justify-center '>
+                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        Your brand is the cornerstone of your reputation, and it's the little things that can make a big impact 
+                        on how people perceive your business. At our company, we help you showcase the unique qualities of your 
+                        brand and forge an emotional connection with your audience, leaving a lasting impression on their 
+                        subconscious minds. With our expertise, you can build a strong, positive reputation and connect 
+                        with your audience in a meaningful way.
+                        </p>
+                      </div>
+                      <p class="w-[80%] border-t border-zinc-300 flex sm:hidden  "></p>
                     </div>
                  </li>
-                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="1000">
-                   <p className='ah pl-1 font-extrabol text-center sm:invisible '>Influencer Marketing</p> 
-                   <div className='second-paragraph '>
-                    <p className=' box-2 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
-                    <p className=" pt-5 al text-justify leading-7 text-[19px]"data-aos="fade-up" data-aos-easing="ease-in-out">
-                    Influencers have a powerful sway over their loyal audiences, and can be effective 
+                 <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
+                   <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Influencer <br></br> Marketing</p>
+                   <div className='w-full first-paragraph flex items-center justify-center flex-col'>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>Underrated yet Extensive</p>
+                      <div className='flex items-center justify-center '>
+                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        Influencers have a powerful sway over their loyal audiences, and can be effective 
                     at promoting products and services through word-of-mouth marketing. From offering 
                     referral codes for discounts to sharing tips for new skin care routines, influencers 
                     can help drive business for your brand. At Grustl, we serve as a bridge between brands 
                     and influencers, simplifying the process of outreach, strategy development, and campaign 
                     management. Let us help you harness the power of influencer marketing and grow your business.
-                    </p>
+                        </p>
+                      </div>
+                      <p class="w-[80%] border-t border-zinc-300 flex sm:hidden "></p>
                     </div>
                  </li>
-                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96" data-aos="fade-up" data-aos-easing="ease-in-out">
-                   <p className='ah  pl-1 font-extrabol text-center sm:invisible '>Brand Strategy</p> 
-                    <div className='third-paragraph '>
-                      <p className='box-3 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl' > It’s high time to define your brand</p>
-                      <p className=" pt-5 al text-justify leading-7 text-[19px]" data-aos="fade-up" data-aos-easing="ease-in-out">
-                      Before we can help your brand succeed, it's crucial to have a deep understanding of 
+
+                 <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
+                   <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Brand <br></br> Strategy</p>
+                   <div className='w-full first-paragraph flex items-center justify-center flex-col'>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>It’s high time to define your brand</p>
+                      <div className='flex items-center justify-center '>
+                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        Before we can help your brand succeed, it's crucial to have a deep understanding of 
                       the market and your competition. At Grustl, we conduct thorough research and case 
                       studies to uncover the answers to important questions about your brand's purpose, 
                       its place in the market, and how to stand out from the competition. By gaining insight 
                       into how you want to be perceived and how your ideal customer sees you, we can develop 
                       a tailored, effective brand strategy that helps you achieve your goals.
-                      </p>
+                        </p>
+                      </div>
+                      <p class="w-[80%] border-t border-zinc-300  flex sm:hidden"></p>
                     </div>
-                </li>
-                 <li className=" sm:w-[80%] w-[90%] pt-40 sm:pt-96 pb " data-aos="fade-up" data-aos-easing="ease-in-out">
-                   <p className='ah pl-1 font-extrabol text-center sm:invisible '>Consulting</p> 
-                    <div className='fourth-paragraph '>
-                      <p className='box-4 ah sm:text-left text-center ah font-extrabol pt-4 text-3xl' >Borrow the Grustl Brains</p>
-                      <p className=" al pt-5 text-justify pb-40 sm:pb-96 leading-7 text-[19px]" data-aos="fade-up" data-aos-easing="ease-in-out">
-                      At Grustl, we focus on understanding the needs of our clients' brands and providing tailored solutions. 
+                 </li>
+
+                 <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
+                   <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Consultancy </p>
+                   <div className='w-full first-paragraph flex items-center justify-center flex-col'>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>Borrow the Grustl Brains</p>
+                      <div className='flex items-center justify-center '>
+                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        At Grustl, we focus on understanding the needs of our clients' brands and providing tailored solutions. 
                       By identifying the "North Star" brands that align with your desired brand identity, we can gain insights 
                       and develop concepts to help you achieve your goals. Rather than spending excessive time on content design 
                       and planning, we prioritize analysis and strategic planning to ensure the success of your brand.
-                      </p>
+                        </p>
+                      </div>
+                      <p class="w-[80%] border-t border-zinc-300  flex sm:hidden"></p>
                     </div>
                  </li>
+                 
+                 
+                 
                 
                </ul>
              </div> 

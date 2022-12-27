@@ -38,7 +38,7 @@ function FoundersC() {
                     </div>
                 </div>
                 <div className='sm:w-[75%] flex items-center justify-center sm:pl-40  w-[100%]' data-aos="fade-up" data-aos-easing="ease-in-out">
-                    <img src={found} className="sm:scale-65 2xl:scale-50 scale-80" alt='founders'/>
+                    <img src={found} className="sm:scale-65 2xl:scale-80 scale-90" alt='founders'/>
                 </div>
             </div>
             <div className=' text-md  sm:hidden  flex flex-col items-center justify-center ' >

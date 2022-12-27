@@ -4,6 +4,11 @@
   font-family: Avenir-Light;
   src: url("/src/font - Copy/AvenirLTStd-Light.otf") format("opentype");
 }
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url("/src/font - Copy/AvenirLTStd-Book.otf") format("opentype");
+}
 @font-face {
   font-family: Avenir-Heavy;
   src: url("/src/font - Copy/AvenirLTStd-Heavy.otf") format("opentype");
@@ -170,6 +175,10 @@
 .ab {
   
   font-family: 'Avenir-Black';
+}
+
+.abk{
+  font-family: 'Avenir-Book';
 }
 
 
