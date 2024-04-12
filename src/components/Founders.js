@@ -14,11 +14,11 @@ function FoundersC() {
       }, []);
       document.addEventListener('contextmenu', event => event.preventDefault());
     return(
-        <div className='flex items-center justify-center flex-col select-none pt-40' data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div className='flex items-center justify-center flex-col select-none pt-10' data-aos="fade-up" data-aos-easing="ease-in-out">
             <div className='bg-white h-auto sm:h-screen flex flex-col sm:flex-row w-full sm:w-[80%] ' >
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" className='flex flex-col  items-center sm:justify-center justify-end sm:items-start  pt-40   w-full sm:w-[55%] text-justify sm:pt-10'>
                     <div className='text-6xl al  sm:text-left text-center w-full'>Meet</div>
-                    <div className='text-6xl ah pt-2 '>The Founders</div>
+                    <div className='text-6xl ah pt-2 pl-10'>The Founders</div>
                     <div className='al w-[100%] text-[1px] sm:text-[16px] sm:pt-8 sm:visible invisible leading-[25px]'data-aos="fade-up" data-aos-easing="ease-in-out" >
                     Sanjeev has a successful entrepreneurial journey of over 5 years under his belt. With expertise in 
                     scaling startups and building strategies for top brands, he joined forces with Prateek who is a 

@@ -380,9 +380,9 @@ function ServicesC() {
                  <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Creative <br></br>Branding</p> 
                    <div className='w-full first-paragraph flex items-center justify-center flex-col'>
-                      <p className='box-1 w-full text-left  ah font-extrabol pt-4 text-2xl'>Not just your Ordinary Branding Agency</p>
+                      <p className='box-1 w-full text-left  ah font-extrabol pt-4 text-3xl'>Not just your Ordinary Branding Agency</p>
                       <div className='flex items-center justify-center '>
-                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        <p className=" abk pt-4 text-left sm:leading[30px] leading-[23px] sm:text-justify sm:text-[20px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
                         Your brand is the cornerstone of your reputation, and it's the little things that can make a big impact 
                         on how people perceive your business. At our company, we help you showcase the unique qualities of your 
                         brand and forge an emotional connection with your audience, leaving a lasting impression on their 
@@ -396,9 +396,9 @@ function ServicesC() {
                  <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Influencer <br></br> Marketing</p>
                    <div className='w-full first-paragraph flex items-center justify-center flex-col'>
-                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>Underrated yet Extensive</p>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-3xl'>Underrated yet Extensive</p>
                       <div className='flex items-center justify-center '>
-                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        <p className=" abk pt-4 text-left sm:leading[30px] sm:text-justify leading-[23px] sm:text-[20px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
                         Influencers have a powerful sway over their loyal audiences, and can be effective 
                     at promoting products and services through word-of-mouth marketing. From offering 
                     referral codes for discounts to sharing tips for new skin care routines, influencers 
@@ -414,9 +414,9 @@ function ServicesC() {
                  <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Brand <br></br> Strategy</p>
                    <div className='w-full first-paragraph flex items-center justify-center flex-col'>
-                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>It’s high time to define your brand</p>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-3xl'>It’s high time to define your brand</p>
                       <div className='flex items-center justify-center '>
-                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        <p className=" abk pt-4 text-left sm:text-justify sm:leading-[30px] leading-[23px] sm:text-[20px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
                         Before we can help your brand succeed, it's crucial to have a deep understanding of 
                       the market and your competition. At Grustl, we conduct thorough research and case 
                       studies to uncover the answers to important questions about your brand's purpose, 
@@ -429,12 +429,12 @@ function ServicesC() {
                     </div>
                  </li>
 
-                 <li className="  sm:w-[80%] w-[90%] pt-10 " data-aos="fade-up" data-aos-easing="ease-in-out"> 
+                 <li className="  sm:w-[80%] w-[90%] pt-10 pb-20" data-aos="fade-up" data-aos-easing="ease-in-out"> 
                    <p className=' ah font-extrabol text-[40px] text-left sm:invisible leading-[40px]'>Consultancy </p>
                    <div className='w-full first-paragraph flex items-center justify-center flex-col'>
-                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-2xl'>Borrow the Grustl Brains</p>
+                      <p className='box-1 text-left w-full  ah font-extrabol pt-4 text-3xl'>Borrow the Grustl Brains</p>
                       <div className='flex items-center justify-center '>
-                        <p className=" abk pt-4 text-left leading-[23px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
+                        <p className=" abk pt-4 text-left leading-[23px] sm:text-justify sm:leading-[30px]  sm:text-[20px] text-[16px] text-[#0C0A0A] pb-10"data-aos="fade-up">
                         At Grustl, we focus on understanding the needs of our clients' brands and providing tailored solutions. 
                       By identifying the "North Star" brands that align with your desired brand identity, we can gain insights 
                       and develop concepts to help you achieve your goals. Rather than spending excessive time on content design 

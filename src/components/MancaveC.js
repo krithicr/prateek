@@ -48,7 +48,7 @@ function MancaveC(props) {
     <div id="Mancave" className='select-none  flex flex-col items-center justify-center bg-black z-20 ' data-aos="fade-up" data-aos-easing="ease-in-out">
       
       
-      <div className='bg-black h-[60%] pt-96 sm:pt-0 sm:h-screen flex items-center justify-center w-full'  >
+      <div className='bg-black h-[60%] pt-50 sm:pt-0 sm:h-screen flex items-center justify-center w-full'  >
         <div className=" " data-Aos="fade-up fade-out" data-aos-delay="400">
           <div  className='ah  bg-black flex flex-col  text-7xl xl:text-9xl gap-0  text-white   justify-center  z-50  fade fadeIn'  >
               <p className='text-center w-full' >the mancave.
@@ -79,7 +79,7 @@ function MancaveC(props) {
       className='h-screen sm:h-0 invisible 'data-aos="fade-up" data-aos-easing="ease-in-out"  >
 
         {/*Guna*/}
-        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto  relative pb-40 pt-40 bg-black' >
+        <div className='sm:hidden flex flex-col items-center justify-center h-auto  w-auto  relative pb-20 pt-20 bg-black' >
           <div className='w-[100%] flex items-center justify-center '>
             <img src={gunavid} galleryimg="no" className="   z-0 scale-100" alt="guna"></img>
             <div className='w-[85%] absolute bottom-0 h-auto  flex items-center justify-center   pt-28 mb-48  bg-gradient-to-t from-black to-transparent via-black'>
@@ -114,8 +114,8 @@ function MancaveC(props) {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                   RISHI <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#225BBB] flex flex-row gap-2 items-center justify-center py-[2px] w-[35%] rounded-sm tracking-wider'>
-                        <p className='al pl-2 '>WEB</p>  <p className='ah'> DEVELOPER</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#225BBB] flex flex-row gap-2 items-center justify-center py-[2px] w-[40%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>WEB</p>  <p className='ah pr-2'> DEVELOPER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify  '>
@@ -140,7 +140,7 @@ function MancaveC(props) {
                   KIRAN <br></br>
                 </div>
                 <div className='    text-[12px]  text-[#D4D4D4] bg-[#296152] flex flex-row gap-2 items-center justify-center py-[2px] w-[50%] rounded-sm tracking-wider'>
-                        <p className='al pl-2 '>STUDIO</p>  <p className='ah'>TASK MANAGER</p>
+                        <p className='al pl-2 '>STUDIO</p>  <p className='ah '>TASK MANAGER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify   '>
@@ -187,8 +187,8 @@ function MancaveC(props) {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 PRANO <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#7D2E26] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
-                        <p className='al pl-2 '>ARCHITECTURAL </p>  <p className='ah'>DESIGNER</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#7D2E26] flex flex-row gap-2 items-center justify-center py-[2px] w-[60%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>ARCHITECTURAL </p>  <p className='ah pr-2'>DESIGNER</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>
@@ -210,8 +210,8 @@ function MancaveC(props) {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 SRIRAM <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#5D61E7] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
-                        <p className='al pl-2 '>MERCHANDISE </p>  <p className='ah'>CONSULTANT</p>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#5D61E7] flex flex-row gap-2 items-center justify-center py-[2px] w-[65%] rounded-sm tracking-wider'>
+                        <p className='al pl-2 '>MERCHANDISE </p>  <p className='ah pr-2'>CONSULTANT</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
                   <p className='text-[#BDB7B7] text-[14px] pt-10 text-justify '>S
@@ -234,7 +234,7 @@ function MancaveC(props) {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 THIKSHA <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[45%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#6C553D] flex flex-row gap-2 items-center justify-center py-[2px] w-[55%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>CONTENT</p>  <p className='ah'>STRATEGIST</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
@@ -258,7 +258,7 @@ function MancaveC(props) {
                 <div className='ah w-full  pt-20 text-[#464646] text-4xl'>
                 PRATHAP <br></br>
                 </div>
-                <div className='    text-[12px]  text-[#D4D4D4] bg-[#564F3E] flex flex-row gap-2 items-center justify-center py-[2px] w-[30%] rounded-sm tracking-wider'>
+                <div className='    text-[12px]  text-[#D4D4D4] bg-[#564F3E] flex flex-row gap-2 items-center justify-center py-[2px] w-[40%] rounded-sm tracking-wider'>
                         <p className='al pl-2 '>SEO</p>  <p className='ah'>ANALYST</p>
                 </div>
                 <div className='flex items-center justify-center  w-[100%] '>
